@@ -15,23 +15,6 @@ $--font-txt: 20px;
 }
 
 
-.sidebard {
-    // background-color: $--secunday;
-    height: 55.3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-}
-
-.sidebard img{
-    width: 50rem;
-    margin-top: -80px;
-    
-
-}
-
 .containerScroll {
     position: relative;
     width: 24px;
@@ -143,7 +126,7 @@ header ul li{
 // --- SECTION TEXT BANNER
 
 .container-text{
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-content: center;
