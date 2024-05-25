@@ -14,6 +14,11 @@ $--font-txt: 50px;
 
 }
 
+#carouselExampleAutoplaying {
+    width: 40%;
+  }
+  
+
 .text-container {
     padding: 10px;
     width: 60%;
@@ -21,6 +26,27 @@ $--font-txt: 50px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: var(--azul-oscuro);
     font-size: 50px;
 }
+
+.segunda-seccion{
+    display: flex;
+    flex-direction: row;
+    background-color: $--secunday;
+}
+
+.marticas{
+    width: 400px;
+}
+
+.container-3images{
+    height: 0%;
+}
+
+.img-fluid{
+    height: 30px;
+}
+
+// #segunda-seccion2 {
+//     background-image: linear-gradient(to bottom, #212529, #FF9900, rgb(33, 37, 41));
+// }
