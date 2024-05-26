@@ -1,0 +1,103 @@
+section {
+  padding: 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  overflow-wrap: break-word;
+}
+section h1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  word-break: break-word;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+@media (max-width: 768px) {
+  section h1 {
+    font-size: 24px;
+  }
+}
+section .parrafo-italic {
+  color: white;
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 1.8vh;
+}
+@media (max-width: 768px) {
+  section .parrafo-italic {
+    font-size: 14px;
+  }
+}
+
+p {
+  color: rgba(0, 0, 0, 0);
+}
+
+#search-bar {
+  height: 100px;
+}
+#search-bar .boton-color {
+  background-color: #FF9900;
+}
+#search-bar .barra-color {
+  background-color: #D9D9D9;
+  opacity: 57%;
+}
+
+.aside-food {
+  max-height: 100px;
+}
+.aside-food img {
+  width: 200px;
+  height: 200px;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.aside-food .span-color {
+  color: #FF9900;
+  margin-left: 40px;
+}
+.aside-food .border-aside {
+  border-bottom: 3px solid #FF9900;
+}
+
+.antojos {
+  color: #FF9900;
+  text-align: center;
+  font-size: 30px;
+}
+
+.antojos2 {
+  color: #FF9900;
+  text-align: center;
+  margin-right: 5px;
+}
+
+@media (max-width: 991.98px) {
+  .svg-container,
+.col-lg-8 {
+    order: initial;
+  }
+}
+.imgs {
+  width: 100px;
+  height: 100px;
+}
+
+.contentainer {
+  margin-left: 90px;
+}
+.contentainer .imgs {
+  width: 100px;
+  height: 100px;
+}
+
+.card-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://colombian-delights.s3.us-east-2.amazonaws.com/imagen9.webp");
+}
+/*# sourceMappingURL=categories.css.map */
