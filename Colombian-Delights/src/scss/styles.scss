@@ -2,17 +2,27 @@
 @import "bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 $--secunday: #FF9900;
-$--primary: rgba(0, 0, 0, 0.66);
-$--font-txt: 20px;
-
+$--primary:#212529 ;
+$--white :#D3D3D3;
+$--font-txt: 25px;
+$--font-title: 50px;
+$OverpassMonoFont: 'Overpass Mono', monospace;
+$PTSansFont: 'PT Sans', sans-serif;
+$AlexBrushFont: 'Alex Brush', cursive;
+$lightbrown: rgb(190, 128, 64);
+$black: rgb(0,0,0);
+$darkgray: rgb(20,20,20);
+$lightgray: rgb(35,35,35);
+$--roboto-sans :"Roboto", sans-serif;
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: $--roboto-sans;
     font-weight: 200;
     font-style: normal;
 
 }
+
 
 
 .containerScroll {
@@ -112,91 +122,150 @@ $--font-txt: 20px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-size: 50px;
+    font-size: $--font-title;
 }
 // ------ HEADER---------------------------
 
-header ul li{
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
+
 
 
 // --- SECTION TEXT BANNER
 
-.container-text{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
- 
-    justify-content: center;
-}
+// .container-text{
+//     margin-top: 1rem;
+//     display: flex;
+//     flex-direction: column;
+//     align-content: center;
+//     justify-content: center;
+// }
 
-.container-text p{
-    font-size: 20px;
-    font-weight: 200;
-    font-style: normal;
-    white-space: wrap;
+// .container-text p{
+//     font-size: $--font-txt;
+//     font-weight: 200;
+//     font-style: normal;
+//     white-space: wrap;
 
    
+// }
+
+// .imgs .container img{
+//     width: 60rem;
+// }
+.carousel {
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
+.carousel-inner .carousel-item {
+  opacity: 0.6; /* Set opacity for carousel items */
 }
 
-.imgs .container img{
-    width: 60rem;
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0.5; /* Set opacity for carousel controls */
 }
+
+.carousel-indicators li {
+  opacity: 0.3; /* Set opacity for carousel indicators */
+}
+
+/*==========Nosotros Section============*/
+
+.custom-font {
+    font-family:$--roboto-sans;
+    color:$--secunday;
+    font-size:75px;
+    line-height:0;
+  }
+  
+  .add-padding {
+    padding:25px;
+    background-color: $--white;
+  }
+  
+  .center-text {
+    margin-bottom:40px;
+    margin-top:30px;
+    color:$--white;
+    h2 {
+      margin-top:25px;
+      line-height:0;
+    }
+    p {
+      margin-top:0;
+      line-height:1.5;
+      color: $--white;
+    }
+    a {
+      color:$--secunday;
+      text-transform:uppercase;
+      font-size:12px;
+      font-weight:600;
+      letter-spacing:1px;
+      border-bottom:solid 2px $--white; 
+    }
+  }
+  
+  .add-flex {
+    display:flex;
+
+    .stuffed-cherries {
+      background:url('https://s-media-cache-ak0.pinimg.com/736x/61/b1/98/61b19844448b2bad5c78e9a2c6347986.jpg')no-repeat center center;
+      background-size:cover;
+      height:315px;
+      width:320px;
+    }
+  }
 
 /* End of header*/
-/*==========About Section============*/
-#about{
+/*==========Categorias Section============*/
+#categorias{
     padding: 40px;
 
 }
 
-.about{
+.categorias{
     margin: 30px 0;
     display: flex;
 }
-.about-icon {
-    font-size: 60px;
+.categorias-icon {
+    font-size: $--font-title;
     color: black;
     margin-right: 20px;
 }
-.about-icon img{
+.categorias-icon img{
     width: 100px;
     border-radius: 10px;
 }
-.about-subtitle{
+.categorias-subtitle{
     text-transform: capitalize;
     color: $--secunday;
-    font-size: 25px;
+    font-size: $--font-txt;
 }
-.about-info{
+.categorias-info{
     margin-top: 10px;
     line-height: 1.5;
     font-weight: 200;
 }
 
-.about-icon:hover .fas,
-.about-subtitle:hover{
+.categorias-icon:hover .fas,
+.categorias-subtitle:hover{
  transition: transform 2s ease, color 2s ease;
  transform: translateY(-10px);
     color: #cd6100;
     cursor: pointer;
 }
 @media screen and (min-width: 576px){
-    .about-center{
+    .categorias-center{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .about{
+    .categorias{
         flex: 0 0 calc(50% - 16px);
     }
 }
 @media screen and (min-width:972px){
-    .about{
+    .categorias{
         flex: 0 0 calc(33.3% - 16px);
     }
 }
+
