@@ -4,6 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is a project where you can discover new companies that offers excellent food" />
+  <meta name="keywords" content="Colombian-Delights, Food, Eating, Hamburguers, Hot Dogs, street foods">
+  <meta name="sitedomain" content="https://riwi.io/" />
+  <meta name="organization" content="Riwi_Dell" />
+  <meta name="author" content="Camilo Barreneche, Shirly Mejia, Oscar Muñoz, Pablo Lopez" />
+  <meta name="designer" content="Camilo Barreneche, Shirly Mejia, Oscar Muñoz, Pablo Lopez" />
+  <meta name="copyright" content="© 2024. All rights reserved">
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
+  <meta name="revisit-after" content="15days" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
   <link rel='stylesheet'
@@ -16,10 +26,10 @@
   <!-- Create the header which is a common part of our website -->
   <header>
     <div class="px-3 py-2 bg-black bg-opacity-25 ">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
         <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
           <img class="bi me-2" width="300" height="100" role="img" aria-label="Colombia-Deli"
-            src="../../public/img/icons/logo.svg" alt="">
+            src="./public/img/icons/logo.svg" alt="">
         </a>
 
         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
@@ -30,16 +40,16 @@
           </li>
           <li>
             <a href="#" class="nav-link text-white">
-              Registrate con nosotros
-            </a>
+              Emprendedores </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="./src/pages/categoriasUs.html" class="nav-link text-white">
               Acerca de nosotros
             </a>
           </li>
           <li>
-
+            <a href="/src/pages/panelAdmin.html" class="text-light">
+              <button type="button" class="btn btn-primary">admin</button></a>
           </li>
 
           <li>
@@ -62,77 +72,114 @@
   </header>
 
   <main>
-    <br />
+    <br>
     <!-- Main menu of the restaurant with a carousel and a brief description of the place -->
-    <div class="container-fluid d-flex justify-content-center">
-      <div class="row justify-content-center">
-        <h1 class="px-4 text-center rounded-5" style="display: inline-block; color: #FFFFFF; border: 5px solid #FF9900">La cocina de Doña Marta</h1>
-      </div>
-    </div>
-    
-    <br />
-    <section id="primera-seccion" class="d-flex flex-row justify-content-around" style="background-color: #212529">
-      <article class="card d-flex flex-row justify-content-around" style="background-color: #212529">
-        <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen40.webp" class="d-block w-100 rounded-4"
-                alt="..." style="height: 500px; width: 500px">
-            </div>
-            <div class="carousel-item">
-              <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen41.webp" class="d-block w-100 rounded-4"
-                alt="..." style="height: 500px; width: 500px">
-            </div>
-            <div class="carousel-item">
-              <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen42.webp" class="d-block w-100 rounded-4"
-                alt="..." style="height: 500px; width: 500px">
-            </div>
+    <br>
+    <section id="primera-seccion" class="d-flex flex-row justify-content-around align-items-center">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen40.webp"
+              class="d-block w-100 rounded-4" alt="..." style="height: 500px; width: 500px">
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen41.webp"
+              class="d-block w-100 rounded-4" alt="..." style="height: 500px; width: 500px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen42.webp"
+              class="d-block w-100 rounded-4" alt="..." style="height: 500px; width: 500px">
+          </div>
         </div>
-        <div class="text-container">
-          <p class="text-center text-white fs-5 text-center font-weight-bold">
-            En las bulliciosas calles de la ciudad, entre el aroma tentador de
-            especias y el murmullo de la gente, se encuentra el emprendimiento
-            culinario de Doña Marta. Con su carrito de comida callejera, esta
-            emprendedora audaz ha conquistado el paladar de los transeúntes con
-            sus delicias caseras.
-          </p>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-white">
+        <h1 class="text-center rounded-5 mb-4"
+          style="display: inline-block; color: #FFFFFF; border: 5px solid #FF9900; border-radius: 0.5rem; padding: 0.5rem 1rem;">
+          La cocina de Doña Marta
+        </h1>
+        <p class="text-center fs-5 font-weight-bold">
+          En las bulliciosas calles de la ciudad, entre el aroma tentador de
+          especias y el murmullo de la gente, se encuentra el emprendimiento
+          culinario de Doña Marta. Con su carrito de comida callejera, esta
+          emprendedora audaz ha conquistado el paladar de los transeúntes con
+          sus delicias caseras.
+        </p>
+        <br>
+        <p class="text-center"><span class="fs-5 font-weight-bold">Horario de atención</span>
           <br>
-          <!-- Contact button in case you want to recieve information -->
-          <form action="https://wa.me/573017325327/?text=Hola, bienvenido a la línea de atención" method="get"
-            target="_blank">
-            <button type="submit" class="btn btn-warning">
-              Contacto
-            </button>
-          </form>
-        </div>
-      </article>
+          Lunes - Domingo: 5:00 p.m. - 11:00 p.m.
+        </p>
+        <form action="https://wa.me/573017325327/?text=Hola, bienvenido a la línea de atención" method="get"
+          target="_blank" class="text-center mt-4">
+          <button type="submit" class="btn btn-warning">
+            Contacto
+          </button>
+        </form>
+      </div>
     </section>
+    <br>
+
     <br>
     <!-- More images below about the products sold -->
     <div class="container-3images bg-dark">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen43.webp" class="img-fluid"
-            alt="Imagen 1" style="height: 350px; width: 400px" />
+      <div class="row space-evenly justify-content-center">
+        <div class="col-sm-3">
+          <div class="image-container">
+            <div class="img-flipper">
+              <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen43.webp"
+                class="img-front img-fluid d-block w-100 rounded-4" alt="Imagen 1">
+              <div class="img-back">
+                <p>Los sabores auténticos de la comida callejera de Doña Marta te transportarán a la esencia de la
+                  cocina local.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen44.webp" class="img-fluid"
-            alt="Imagen 2" style="height: 350px; width: 400px" />
+        <div class="col-sm-3">
+          <div class="image-container">
+            <div class="img-flipper">
+              <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen44.webp"
+                class="img-front img-fluid d-block w-100 rounded-4" alt="Imagen 1">
+              <div class="img-back">
+                <p>La comida callejera de Doña Marta ofrece una experiencia gastronómica única y llena de tradición.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen45.webp" class="img-fluid"
-            alt="Imagen 3" style="height: 350px; width: 400px" />
+        <div class="col-sm-3">
+          <div class="image-container">
+            <div class="img-flipper">
+              <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen45.webp"
+                class="img-front img-fluid d-block w-100 rounded-4" alt="Imagen 1">
+              <div class="img-back">
+                <p>Desde deliciosas salchipapas hasta exquisitas hamburguesas, Doña Marta lleva la esencia de la calle a
+                  tu paladar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="image-container">
+            <div class="img-flipper">
+              <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen46.webp"
+                class="img-front img-fluid d-block w-100 rounded-4" alt="Imagen 1">
+              <div class="img-back">
+                <p>Descubre la autenticidad y el sabor inigualable de la comida callejera con los platos de Doña Marta.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -140,9 +187,12 @@
 
     <!-- Backgound about the origin of the restaurant -->
     <section class="segunda-seccion d-flex">
-      <article id="segunda-seccion2" class="d-flex flex-row justify-content-around" style="background-color: #212529">
+      <article id="segunda-seccion2" class="d-flex justify-content-around" style="background-color: #212529">
         <div class="text-container">
-          <h2 class="px-4 text-center text-white">Su historia</h2>
+          <h1 class="rounded-5 mb-4"
+            style="display: inline-block; color: #FFFFFF; border: 5px solid #FF9900; border-radius: 0.5rem; padding: 0.5rem 1rem;">
+            Su historia
+          </h1>
           <p class="text-white fs-5 text-center">Doña Marta era una mujer emprendedora y apasionada por la cocina desde
             joven. Con habilidades culinarias
             heredadas de generaciones pasadas, decidió llevar su talento a las calles de su ciudad. Armada con una
@@ -158,17 +208,26 @@
       </article>
     </section>
 
+    <!-- A map where you can find the location of the restaurant -->
+    <article class="text-center">
+      <h1 class="rounded-5 mb-4"
+        style="display: inline-block; color: #FFFFFF; border: 5px solid #FF9900; border-radius: 0.5rem; padding: 0.5rem 1rem;">
+        Ubicación
+      </h1>
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.351432508582!2d-75.5836149!3d6.219101!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44293f0e114eef%3A0x99610cdd44c7c081!2sRiwi%20-%20Be%20a%20Coder!5e0!3m2!1ses!2sco!4v1716769799529!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <div id="map" class="mx-auto"></div> -->
+      </article>
+
   </main>
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4  mb-0 bg-black bg-opacity-25">
     <p class="col-md-4 mb-0 text-light">&copy; 2024 Company, Inc</p>
-
     <a href="/"
       class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
       <img class="bi me-2" width="300" height="50" src="./public/img/icons/logo.svg" alt="">
 
     </a>
-
     <ul class="nav col-md-4 justify-content-end">
       <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Comidas</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Registrate con nosotros</a></li>
@@ -176,8 +235,9 @@
     </ul>
   </footer>
 
+  <script src="../js/profile.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5bvOmplLw9hVJ-gUPPp-zrbDhfgXFQYk&callback=initMap" async defer></script>
   <script type="module" src="../js/main.js"></script>
-
 
 </body>
 
