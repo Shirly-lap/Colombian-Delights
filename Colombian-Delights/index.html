@@ -4,10 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a project where you can discover new companies that offers excellent food" />
+  <meta name="keywords" content="Colombian-Delights, Food, Eating, Hamburguers, Hot Dogs, street foods">
+  <meta name="sitedomain" content="https://riwi.io/" />
+  <meta name="organization" content="Riwi_Dell" />
+  <meta name="author" content="Camilo Barreneche, Shirly Mejia, Oscar Muñoz, Pablo Lopez" />
+  <meta name="designer" content="Camilo Barreneche, Shirly Mejia, Oscar Muñoz, Pablo Lopez" />
+  <meta name="copyright" content="©️ 2024. All rights reserved">
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
+  <meta name="revisit-after" content="15days" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
   <link rel='stylesheet'
     href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+  <link rel="stylesheet" href="./src/scss/normalize.css">
   <title>Colombian Delights</title>
 </head>
 
@@ -16,7 +27,7 @@
 
   <header>
     <div class="px-3 py-2 bg-black bg-opacity-25 ">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
         <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
           <img class="bi me-2" width="300" height="100" role="img" aria-label="Colombia-Deli"
             src="./public/img/icons/logo.svg" alt="">
@@ -61,73 +72,79 @@
     </div>
   </header>
 
-  <div id="carouselExampleAutoplaying" class="carousel slide  text-light text-center  " data-bs-ride="carousel">
+  <div id="carouselExampleAutoplaying" class="carousel slide  text-light text-center" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active  ">
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+10.mp4" type="video/mp4">
         </video>
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+4.mp4" type="video/mp4">
         </video>
 
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+14.mp4" type="video/mp4">
         </video>
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+6.mp4" type="video/mp4">
         </video>
       </div>
       <div class="carousel-item">
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+16.mp4" type="video/mp4">
         </video>
 
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+3.mp4" type="video/mp4">
         </video>
 
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+10.mp4" type="video/mp4">
         </video>
 
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+7.mp4" type="video/mp4">
         </video>
       </div>
       <div class="carousel-item">
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video11.mp4" type="video/mp4">
         </video>
 
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video12.mp4" type="video/mp4">
         </video>
 
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+17.mp4" type="video/mp4">
         </video>
 
-        <video muted autoplay width="445">
+        <video muted autoplay width="472">
 
           <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+4.mp4" type="video/mp4">
         </video>
 
       </div>
       <div class="carousel-caption d-none d-md-block bg-primary-bg-subtle bg-opacity-25 text-white  ">
-        <h2>Un viaje gastronómico a través de Colombia</h2>
-        <p>Descubriendo tesoros culinarios escondidos, donde los sabores se mezclan y las tradiciones se entretejen.
-        </p>
+        <h1>Un viaje gastronómico a través de Colombia</h1>
+        <p>Descubriendo tesoros culinarios escondidos, donde los sabores se mezclan y las tradiciones se entretejen.</p>
+        <div class="container d-flex justify-content-center">
+          <div class="containerScroll">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -143,20 +160,20 @@
     </button>
 
   </div>
-  <div class="container d-flex justify-content-center">
-    <div class="containerScroll">
-      <div class="chevron"></div>
-      <div class="chevron"></div>
-      <div class="chevron"></div>
-    </div>
-  </div>
+
 
   <main>
-    <section class="container add-padding add-flex bg-black bg-opacity-25 rounded ">
+    <section class="container add-padding add-flex bg-black bg-opacity-25 rounded mt-5">
       <div class="center-text">
         <h1 class="alex-brush"><span class="custom-font">Colombian Delights</span><br />Directorio de comidas</h1>
-        <p>Aquí encontrarás las mejores comidas de Medellín. Deléitate con los platos tradicionales colombianos
-          preparados con amor y tradición. Vive la cultura vibrante de Colombia a través de cada plato</p>
+        <p>Bienvenido a Colombian Delights, tu guía definitiva de los sabores
+          auténticos de esta cautivadora ciudad. Pero encontrar estas joyas culinarias escondidas puede ser un desafío.
+          Ahí es donde entra en juego Delicias
+          Colombianas. Nuestro directorio completo es su pasaporte a los sabores auténticos de Medellín. Únase a
+          nosotros y descubra las joyas ocultas que
+          hacen que la escena culinaria de Medellín sea tan única y memorable.
+
+        </p>
         <a href="src/pages/aboutUs.html">Acerca de nosotros</a>
       </div>
       <div class="stuffed-cherries" data-aos="fade-left" data-aos-delay="300">
@@ -174,88 +191,24 @@
         <!---Single item-->
         <article class="categorias">
           <div class="categorias-icon">
-            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/hamburguer.png" alt="">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen9.webp" alt="">
           </div>
           <div class="categorias-text">
-            <h2 class="categorias-subtitle">Drinks</h2>
-            <p class="categorias-info">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Quisquam, temporibus!</p>
+            <h2 class="categorias-subtitle">Hamburguesas</h2>
+            <p class="categorias-info">Disfruta del sabor inigualable de jugosas hamburguesas artesanales, preparadas
+              con carne de la mejor calidad y toppings creativos.</p>
           </div>
         </article>
-
-        <article class="categorias">
-          <div class="categorias-icon">
-            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen1.webp" alt="">
-          </div>
-          <div class="categorias-text">
-            <h2 class="categorias-subtitle">Drinks</h2>
-            <p class="categorias-info">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Quisquam, temporibus!</p>
-          </div>
-        </article>
-
-        <article class="categorias">
-          <div class="categorias-icon">
-            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen10.webp" alt="">
-          </div>
-          <div class="categorias-text">
-            <h2 class="categorias-subtitle">Drinks</h2>
-            <p class="categorias-info">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Quisquam, temporibus!</p>
-          </div>
-        </article>
-
-        <article class="categorias">
-          <div class="categorias-icon">
-            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen11.webp" alt="">
-          </div>
-          <div class="categorias-text">
-            <h2 class="categorias-subtitle">Drinks</h2>
-            <p class="categorias-info">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Quisquam, temporibus!</p>
-          </div>
-        </article>
+        <!--End of single item-->
 
         <article class="categorias">
           <div class="categorias-icon">
             <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen12.webp" alt="">
           </div>
           <div class="categorias-text">
-            <h2 class="categorias-subtitle">Drinks</h2>
-            <p class="categorias-info">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Quisquam, temporibus!</p>
-          </div>
-        </article>
-        <article class="categorias">
-          <div class="categorias-icon">
-            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen13.webp" alt="">
-          </div>
-          <div class="categorias-text">
-            <h2 class="categorias-subtitle">Drinks</h2>
-            <p class="categorias-info">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Quisquam, temporibus!</p>
-          </div>
-        </article>
-
-        <article class="categorias">
-          <div class="categorias-icon">
-            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen14.webp" alt="">
-          </div>
-          <div class="categorias-text">
-            <h2 class="categorias-subtitle">Drinks</h2>
-            <p class="categorias-info">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Quisquam, temporibus!</p>
-          </div>
-        </article>
-
-        <article class="categorias">
-          <div class="categorias-icon">
-            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen15.webp" alt="">
-          </div>
-          <div class="categorias-text">
-            <h2 class="categorias-subtitle">Drinks</h2>
-            <p class="categorias-info">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Quisquam, temporibus!</p>
+            <h2 class="categorias-subtitle">Patacones</h2>
+            <p class="categorias-info">Crujientes por fuera, suaves por dentro. Deleitate con los tradicionales
+              patacones rellenos, ahogados o pisaos que te dejarán sin aliento. </p>
           </div>
         </article>
 
@@ -264,13 +217,80 @@
             <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen16.webp" alt="">
           </div>
           <div class="categorias-text">
-            <h2 class="categorias-subtitle">Drinks</h2>
-            <p class="categorias-info">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Quisquam, temporibus!</p>
+            <h2 class="categorias-subtitle">Arepas</h2>
+            <p class="categorias-info">Experimenta la versatilidad de la arepa colombiana. Rellenas de carne, pollo,
+              vegetales o queso, ¡hay una arepa para cada gusto! </p>
           </div>
         </article>
 
-        <!--End of single item-->
+        <article class="categorias">
+          <div class="categorias-icon">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen46.webp" alt="">
+          </div>
+          <div class="categorias-text">
+            <h2 class="categorias-subtitle">Picadas</h2>
+            <p class="categorias-info">Disfruta de una explosión de sabores con nuestras picadas colmadas de carnes
+              asadas, chorizos, verduras y bocados típicos colombianos. </p>
+          </div>
+        </article>
+
+        <article class="categorias">
+          <div class="categorias-icon">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen7.webp" alt="">
+          </div>
+          <div class="categorias-text">
+            <h2 class="categorias-subtitle">Perros calientes</h2>
+            <p class="categorias-info">Prueba nuestros perros calientes gourmet con ingredientes frescos y salsas de la
+              casa para un sabor inolvidable.</p>
+          </div>
+        </article>
+        <article class="categorias">
+          <div class="categorias-icon">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen41.webp" alt="">
+          </div>
+          <div class="categorias-text">
+            <h2 class="categorias-subtitle">Nachos</h2>
+            <p class="categorias-info">Crujientes totopos bañados en queso fundido, carne, frijoles y pico de gallo. Un
+              clásico mexicano perfecto para cualquier ocasión.</p>
+          </div>
+        </article>
+
+        <article class="categorias">
+          <div class="categorias-icon">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen49.webp" alt="">
+          </div>
+          <div class="categorias-text">
+            <h2 class="categorias-subtitle">Burritos</h2>
+            <p class="categorias-info">Lleváte un bocado de México en cada bocado. Deliciosos burritos rellenos de
+              carne, pollo, verduras o frijoles, envueltos en tortillas de harina suaves. </p>
+          </div>
+        </article>
+
+        <article class="categorias">
+          <div class="categorias-icon">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen3.webp" alt="">
+          </div>
+          <div class="categorias-text">
+            <h2 class="categorias-subtitle">Chuzos</h2>
+            <p class="categorias-info">Ensartados en palos de madera y asados a la perfección. Prueba nuestros
+              deliciosos chuzos de carne, pollo, chorizo o verduras, marinados en especias tradicionales.</p>
+          </div>
+        </article>
+
+        <article class="categorias">
+          <div class="categorias-icon">
+            <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/imagen53.webp" alt="">
+          </div>
+          <div class="categorias-text">
+            <h2 class="categorias-subtitle">Papas</h2>
+            <p class="categorias-info">Las papas nunca fueron tan sabrosas. Descubre nuestras variedades de papas
+              fritas, rellenas, gratinadas o en cascos, hechas con amor y los mejores ingredientes.</p>
+          </div>
+        </article>
+
+        
+
+
         <!---Single item-->
       </div>
       <!-- </div> -->
@@ -293,7 +313,7 @@
 
   </main>
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4  mb-0">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4  mb-0 bg-black bg-opacity-25">
     <p class="col-md-4 mb-0 text-light">&copy; 2024 Company, Inc</p>
 
     <a href="/"

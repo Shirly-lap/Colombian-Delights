@@ -23,7 +23,9 @@ $--roboto-sans :"Roboto", sans-serif;
 
 }
 
-
+p{
+    font-size: $--font-txt;
+}
 
 .containerScroll {
     position: relative;
@@ -131,26 +133,6 @@ $--roboto-sans :"Roboto", sans-serif;
 
 // --- SECTION TEXT BANNER
 
-// .container-text{
-//     margin-top: 1rem;
-//     display: flex;
-//     flex-direction: column;
-//     align-content: center;
-//     justify-content: center;
-// }
-
-// .container-text p{
-//     font-size: $--font-txt;
-//     font-weight: 200;
-//     font-style: normal;
-//     white-space: wrap;
-
-   
-// }
-
-// .imgs .container img{
-//     width: 60rem;
-// }
 .carousel {
     margin: 0 auto; /* Center the carousel horizontally */
   }
@@ -191,13 +173,16 @@ $--roboto-sans :"Roboto", sans-serif;
     }
     p {
       margin-top:0;
-      line-height:1.5;
+      line-height:1.8;
       color: $--white;
+      text-align: justify;
+      width: 90%;
+      font-size: $--font-txt;
     }
     a {
       color:$--secunday;
       text-transform:uppercase;
-      font-size:12px;
+      font-size:15px;
       font-weight:600;
       letter-spacing:1px;
       border-bottom:solid 2px $--white; 
@@ -206,12 +191,13 @@ $--roboto-sans :"Roboto", sans-serif;
   
   .add-flex {
     display:flex;
+    align-items: center;
 
     .stuffed-cherries {
-      background:url('https://s-media-cache-ak0.pinimg.com/736x/61/b1/98/61b19844448b2bad5c78e9a2c6347986.jpg')no-repeat center center;
+      background:url('https://colombian-delights.s3.us-east-2.amazonaws.com/imagen28.webp')no-repeat center center;
       background-size:cover;
       height:315px;
-      width:320px;
+      width:80%;
     }
   }
 
@@ -229,11 +215,11 @@ $--roboto-sans :"Roboto", sans-serif;
 .categorias-icon {
     font-size: $--font-title;
     color: black;
-    margin-right: 20px;
 }
 .categorias-icon img{
-    width: 100px;
+    width: 80%;
     border-radius: 10px;
+    object-fit: cover;
 }
 .categorias-subtitle{
     text-transform: capitalize;
@@ -242,8 +228,10 @@ $--roboto-sans :"Roboto", sans-serif;
 }
 .categorias-info{
     margin-top: 10px;
-    line-height: 1.5;
+    line-height: 1.4;
     font-weight: 200;
+    font-size: 15px;
+    text-align: justify;
 }
 
 .categorias-icon:hover .fas,
