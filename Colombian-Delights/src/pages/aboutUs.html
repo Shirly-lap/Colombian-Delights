@@ -8,7 +8,7 @@
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
   <link rel='stylesheet'
     href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css'>
-  <link rel="stylesheet" href="../scss/abaoutus.scss">
+  <link rel="stylesheet" href="../scss/aboutUs.scss">
   <title>Colombian Delights</title>
 </head>
 
@@ -17,54 +17,46 @@
     <img src="./public/img/products/hamburguer.png" alt=""> 
   </div> -->
   <header>
-    <div class="px-3 py-2 text-bg-dark">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+    <div class="px-3 py-2 bg-black bg-opacity-25 ">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
         <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
           <img class="bi me-2" width="300" height="100" role="img" aria-label="Colombia-Deli"
-            src="./public/img/icons/logo.svg" alt="">
+            src="../../public/img/icons/logo.svg" alt="">
         </a>
 
         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
           <li>
             <a href="#" class="nav-link text-white">
-              <i class="fi fi-sr-restaurant "></i>
               Comidas
             </a>
           </li>
           <li>
             <a href="#" class="nav-link text-white">
-              <i class="bi bi-envelope-at-fill"></i>
-              Registrate con nosotros
-            </a>
+              Emprendedores </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
-              <i class="bi bi-info-square-fill"></i>
+            <a href="./src/pages/categoriasUs.html" class="nav-link text-white">
               Acerca de nosotros
             </a>
           </li>
           <li>
-            <ul>
-              <li>
-                <a lang="es-ES" href="">
-                  <span>
-                    <img src="./public/img/icons/es.svg" alt=""></span>
-                  <span>Español</span>
-                </a>
+            <a href="/src/pages/panelAdmin.html" class="text-light">
+              <button type="button" class="btn btn-primary">admin</button></a>
+          </li>
 
-              </li>
-              <li>
-                <a lang="en-us" hreflang="en-us" href="">
-                  <span><img src="./public/img/icons/us.svg" alt=""></span>
-                  <span>English</span>
-                </a>
-              </li>
-            </ul>
+          <li>
+            <a href="./src/pages/profile.html">
+              <button type="button" class="btn btn-primary">
+                Profile
+              </button>
+            </a>
           </li>
           <li>
-            <button type="button" class="btn btn-primary">
-              <a href="/src/pages/panelAdmin.html" class="text-light">admin</a>
-            </button>
+            <a href="./src/pages/foods.html">
+              <button type="button" class="btn btn-primary">
+                Foods
+              </button>
+            </a>
           </li>
         </ul>
       </div>
@@ -73,55 +65,87 @@
 
   <main>
     <section>
-      <div>
+      <div class="up-page">
         <h1>Descubre Nuestra Historia</h1>
-        <p>Explora nuestro proyecto y descubre la Esencia de Quiénes Somos y Nuestro Compromiso</p>
-      </div>
-      <div>
-        <video src=""></video>
-      </div>
-    </section>
-    <section>
-      <div class="title-cotains">
-        <h2 class="form-title">Registra Tu Negocio En Colombian Delights</h2>
-        <p>Registra tus datos y los de tu negocio, nosotros te contactaremos para hacer una alianza que impulse tu
-          negocio en el comercio gastronomico dando a conocer todos tus productos.</p>
-      </div>
-      <div class="mb-3 d-flex gap-2 flex-column align-items-center">
-        <input class="input-form form-control form-control-sm" placeholder="Nombre Del Negocio" type="text"
-          placeholder=".form-control-sm" aria-label=".form-control-sm example">
-        <input class="input-form form-control form-control-sm" placeholder="Direccion" type="text"
-          placeholder=".form-control-sm" aria-label=".form-control-sm example">
-        <input class="input-form form-control form-control-sm" placeholder="Telefono" type="text"
-          placeholder=".form-control-sm" aria-label=".form-control-sm example">
-        <input class="input-form form-control form-control-sm" placeholder="Nombre Del Propietario" type="text"
-          placeholder=".form-control-sm" aria-label=".form-control-sm example">
-        <textarea class="input-form form-control" placeholder="Observacion Adicional (opcional)"
-          id="exampleFormControlTextarea1" rows="2"></textarea>
         <br>
-        <button type="button" class="btn btn-warning">Enviar Registro</button>
+        <p class="fs-4">Explora nuestro proyecto y descubre la Esencia de Quiénes Somos y Nuestro Compromiso.</p>
+      </div>
+      <div>
+        <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/hamburguer.png" alt="">
+      </div>
+    </section>
+    <section class="d-flex align-items-center">
+      <div class="form-contains">
+        <div class="contains-input-form d-flex gap-4 flex-column align-items-center">
+          <h3 class="fs-3 text-dark">Datos Personales</h3>
+          <input class="input-form form-control" type="text" placeholder="Nombre Del Negocio" aria-label="default input example">
+          <input class="input-form form-control" type="text" placeholder="Direccion" aria-label="default input example">
+          <input class="input-form form-control" type="text" placeholder="Telefono" aria-label="default input example">
+          <input class="input-form form-control" type="text" placeholder="Nombre Del Propietario" aria-label="default input example">
+          <textarea class="input-form form-control" placeholder="Observacion Adicional (opcional)"
+            id="exampleFormControlTextarea1" rows="3"></textarea>
+          <br>
+          <button type="button" class="btn btn-dark"><i class="bi bi-send">  Enviar Registro</i></button>
+        </div>
+        <article>
+          <div class="form-cotains-title">
+            <h2 class="form-title">Registra Tu Negocio En Colombian Delights</h2>
+          </div>
+          <div class="contain-text-form">
+            <p class="fs-3">Registra tus datos y los de tu negocio, nosotros te contactaremos para hacer una alianza que
+              impulse tu negocio en el comercio gastronomico dando a conocer todos tus productos.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="us-contains">
+      <div>
+        <h3 class="us-p fs-3">Colombian Delights.</h3>
+        <br>
+        <p class="us-p"> Te conecta con experiencias culinarias excepcionales y te muestra un mundo gastronomico poco
+          explorado, ayudando a los emprendedores locales destacando sus restaurantes y puestos callejeros poco
+          conocidos, esta plataforma brinda a estos negocios una oportunidad invaluable para brillar y darsen a conocer
+          compartiendo sus tesoros culinarios.</p>
+      </div>
+      <div class="us-contain-image">
+        <img class="marticas" src="https://colombian-delights.s3.us-east-2.amazonaws.com/marticas.png" alt="" class="">
       </div>
     </section>
     <section>
-      <div>
-        <h3>Colombian Delights</h3>
-        <p>No solo te conecta con experiencias culinarias excepcionales, sino que también apoya a los emprendedores
-          locales. Al destacar los restaurantes y puestos callejeros menos conocidos, la plataforma brinda a estos
-          negocios una oportunidad
-          invaluable para brillar y compartir sus tesoros culinarios con el mundo.</p>
+      <div class="team-title">
+        <h2>Equipo Colombian Delights.</h2>
       </div>
-      <div>
-        <img class="marticas" src="https://colombian-delights.s3.us-east-2.amazonaws.com/marticas.png" width="300px" height="300px" alt="" class="">
+      <div class="team-contains">
+        <article class="team-person">
+          <img class="team-image" src="../../public/img/icons/foto-shirly.webp" alt="">
+          <p class="team-text fs-4"><strong>Shirly Mejia</strong></p>
+          <p class="fs-5">Rol</p>
+        </article>
+        <article>
+          <img class="team-image" src="../../public/img/icons/foto camilo.webp" alt="">
+          <p class="team-text fs-4"><strong>Camilo Barreneche</strong></p>
+          <p class="fs-5">Rol</p>
+        </article>
+        <article>
+          <img class="team-image" src="../../public/img/icons/foto pablo.webp" alt="">
+          <p class="team-text fs-4"><strong>Pablo Lopez</strong></p>
+          <p class="fs-5">Rol</p>
+        </article>
+        <article>
+          <img class="team-image" src="../../public/img/icons/foto oscar.webp" alt="">
+          <p class="team-text fs-4"><strong>Oscar Muñoz</strong></p>
+          <p class="fs-5">Rol</p>
+        </article>
       </div>
     </section>
   </main>
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4  mb-0 bg-black bg-opacity-25">
     <p class="col-md-4 mb-0 text-light">&copy; 2024 Company, Inc</p>
 
     <a href="/"
       class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <img class="bi me-2" width="300" height="50" src="./public/img/icons/logo.svg" alt="">
+      <img class="bi me-2" width="300" height="50" src="../../public/img/icons/logo.svg" alt="">
 
     </a>
 
@@ -131,7 +155,7 @@
       <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Acerca de nosotros</a></li>
     </ul>
   </footer>
-  <script type="module" src="./src/js/main.js"></script>
+  <script type="module" src="../js/main.js"></script>
 </body>
 
 </html>
