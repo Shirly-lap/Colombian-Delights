@@ -1,4 +1,4 @@
-$primary-color: #0000;
+$primary-color: #000000;
 $secondary-color: #FF9900;
 $bar-color: #D9D9D9;
 
@@ -7,7 +7,7 @@ $bar-color: #D9D9D9;
 //Section of introduction to the page
 section {
 
-  padding: 2rem;
+  padding: 0px;
   text-align: center;
   max-width: 800px; // Ancho máximo para hacerlo responsive
   margin: 0 auto;
@@ -124,3 +124,4 @@ p {
   background-image: url('https://colombian-delights.s3.us-east-2.amazonaws.com/imagen9.webp');
 
 }
+
