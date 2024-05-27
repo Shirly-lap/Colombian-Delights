@@ -1,0 +1,150 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$--secunday: #FF9900;
+$--primary: rgba(0, 0, 0, 0.66);
+$--font-txt: 50px;
+$font-color: white;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+main {
+color: $font-color
+}
+
+
+.up-page{
+    text-align: center;
+    margin-top: 55px;
+}
+
+
+
+
+
+.form-cotains-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-title{
+    border:none;
+    border-radius: 5px;
+    background-color: #FF9900;
+    color: black;
+    width: 640px;
+    height: 45px;
+    text-align: center;
+    margin-left: 240px;
+    margin-bottom: 70px;
+}
+
+.form-contains{
+    display: flex;
+    text-align: center;
+    margin-top: 60px;
+    font-size: larger;
+    align-items: center;
+}
+
+
+.contains-input-form{
+    background-color: #FF9900;
+    width: 850px;
+    height: 550px;
+    margin-left: 530px;
+    border-radius: 12px;
+    padding-top:18px ;
+}
+
+.input-form{
+    border-radius: 10px;
+    border-color: rgb(49, 49, 49);
+    border-width: 3px;
+    width: 550px;
+}
+
+.contain-text-form{
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.us-contains{
+    display: flex;
+    margin-top: 70px;
+    background-color: #FF9900;
+    color: black;
+    align-items: center;
+}
+
+.us-p{
+    text-align: left;
+    margin-right: 400px;
+    margin-left: 70px;
+    font-size: larger;
+}
+
+.marticas{
+    margin-right: 50px;
+    position: relative;
+    top: 40px;
+    width: 480px;
+    height: 480px;
+
+
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.us-contain-image:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+.team-title{
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+
+.team-contains{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    margin-top: 80px;
+}
+
+
+.team-image{
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    border: solid #FF9900;
+    border-width: 6px;
+}
+
+
+.team-text{
+    margin-top: 20px;
+}
+
+
