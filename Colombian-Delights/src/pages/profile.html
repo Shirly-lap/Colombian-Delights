@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="This is a project where you can discover new companies that offers excellent food" />
+  <meta name="description"
+    content="This is a project where you can discover new companies that offers excellent food" />
   <meta name="keywords" content="Colombian-Delights, Food, Eating, Hamburguers, Hot Dogs, street foods">
   <meta name="sitedomain" content="https://riwi.io/" />
   <meta name="organization" content="Riwi_Dell" />
@@ -18,6 +19,10 @@
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
   <link rel='stylesheet'
     href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
   <link rel="stylesheet" href="../scss/profile.scss">
   <title>Colombian Delights</title>
 </head>
@@ -200,9 +205,24 @@
         Ubicación
       </h1>
       <br>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.351432508582!2d-75.5836149!3d6.219101!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44293f0e114eef%3A0x99610cdd44c7c081!2sRiwi%20-%20Be%20a%20Coder!5e0!3m2!1ses!2sco!4v1716769799529!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <!-- <div id="map" class="mx-auto"></div> -->
-      </article>
+      <div id="map" class="mx-auto" style="width: 100%; height: 600px"></div>
+      <script>
+        let map = L.map('map').setView([19.4327, -99.1331], 16)
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([19.4327, -99.1331]).addTo(map).bindPopup("Zócalo de la Ciudad de México")
+        L.marker([19.4349, -99.1313]).addTo(map).bindPopup("Templo Mayor")
+
+        map.on('click', onMapClick)
+
+        function onMapClick(e) {
+          alert("Posición: " + e.latlng)
+        }
+      </script>
+    </article>
 
   </main>
 
@@ -223,7 +243,6 @@
   </footer>
 
   <script src="../js/profile.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5bvOmplLw9hVJ-gUPPp-zrbDhfgXFQYk&callback=initMap" async defer></script>
   <script type="module" src="../js/main.js"></script>
 
 </body>
