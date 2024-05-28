@@ -7,15 +7,16 @@ export const restaurants = [
       hamburgers: [
         {
           id: 1,
+          category: "Hamburguesa",
           name: "Hamburguesa Clásica",
           image:
             "https://images.ecestaticos.com/CXJr7WaerAWg8tX9h2BsfQjCulU=/0x0:2121x1414/600x315/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/348/61b/a7e/34861ba7e45bd4ca8232ec0ccbd5be64.jpg",
         },
         {
           id: 2,
+          category: "Hamburguesa",
           name: "Hamburguesa Doble Carne",
           description: "Hamburguesa con el doble de carne y queso cheddar",
-          price: 20000,
           image:
             "https://media-cdn.tripadvisor.com/media/photo-s/18/92/e1/89/hamburguesa-double-b.jpg",
         },

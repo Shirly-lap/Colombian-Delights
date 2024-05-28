@@ -1,4 +1,4 @@
-section {
+.section-int {
   padding: 0px;
   text-align: center;
   max-width: 800px;
@@ -6,7 +6,7 @@ section {
   margin-bottom: 40px;
   overflow-wrap: break-word;
 }
-section h1 {
+.section-int h1 {
   color: white;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -15,18 +15,18 @@ section h1 {
   margin-bottom: 25px;
 }
 @media (max-width: 768px) {
-  section h1 {
+  .section-int h1 {
     font-size: 24px;
   }
 }
-section .parrafo-italic {
+.section-int .parrafo-italic {
   color: white;
   font-family: "Roboto";
   font-style: italic;
   font-size: 1.8vh;
 }
 @media (max-width: 768px) {
-  section .parrafo-italic {
+  .section-int .parrafo-italic {
     font-size: 14px;
   }
 }
@@ -77,7 +77,7 @@ p {
 
 @media (max-width: 991.98px) {
   .svg-container,
-  .col-lg-8 {
+.col-lg-8 {
     order: initial;
   }
 }
@@ -99,4 +99,5 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("https://colombian-delights.s3.us-east-2.amazonaws.com/imagen9.webp");
-}/*# sourceMappingURL=categories.css.map */
+}
+/*# sourceMappingURL=categories.css.map */

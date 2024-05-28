@@ -17,6 +17,7 @@
   <link rel='stylesheet'
     href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css'>
   <link rel="stylesheet" href="../scss/cards.css">
+  <link rel="stylesheet" href="../scss/card-ba.css">
   <link rel="stylesheet" href="../scss/categories.css">
   <link rel="shortcut icon" href="../../public/img/icons/logo.svg" type="image/x-icon">
   <title>Colombian Delights</title>
@@ -61,7 +62,7 @@
 
   <main>
     <!-- Introduction Section -->
-    <section>
+    <section class="section-int">
       <h1>Embarcate en un viaje culinario por colombia</h1>
       <p class="parrafo-italic">Descubre tesoros culinarios escondidos en todo el país, donde aromas y
         tradiciones se entrelazan desde los Andes hasta el Caribe</p>
@@ -73,14 +74,15 @@
       <button class="btn boton-color" type="submit">Search</button>
     </form>
 
-    <div class="row g-3">
+    <section class=" d-flex justify-content-between">
       <div class="col-md-8 mt-4 cardContainer  container">
+        <article class="cards d-flex justify-content-center">
 
-        <div id="foods"></div>
+        </article>
 
       </div>
 
-      <div class="col-sm-4 background-aside m-0 ">
+      <div class="background-aside m-0 ">
         <div class="position-sticky " style="top: 2rem;">
           <div class=" mb-3  rounded">
             <h4 class="antojos mt-5 ">Antojitos De Medallo</h4>
@@ -150,7 +152,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </main>
 
   <!-- Footer -->
