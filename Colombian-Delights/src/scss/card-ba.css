@@ -6,7 +6,6 @@
 
 .cards {
   width: 100%;
-  height: 600px;
   display: flex;
   flex-wrap: wrap;
   display: -webkit-flex;
@@ -137,4 +136,5 @@
 
 .card:hover .card__info-hover {
   opacity: 1;
-}/*# sourceMappingURL=card-ba.css.map */
+}
+/*# sourceMappingURL=card-ba.css.map */
