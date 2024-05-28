@@ -1,4 +1,5 @@
-export const restaurants = [
+
+[
   {
     id: 1,
     name: "Restaurante doña marta",
