@@ -29,4 +29,4 @@ function addUserDefinedLocation(lat, lng, popupText) {
 
 // Add marker when page load
 addCurrentLocationMarker();
-addUserDefinedLocation(6.20911, -75.56782, "La cocina de Doña Marta");
+addUserDefinedLocation(6.21018,-75.57166, "Las Delicias de Don Pedro");
