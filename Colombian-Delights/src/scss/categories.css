@@ -77,7 +77,7 @@ p {
 
 @media (max-width: 991.98px) {
   .svg-container,
-  .col-lg-8 {
+.col-lg-8 {
     order: initial;
   }
 }
@@ -99,4 +99,5 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("https://colombian-delights.s3.us-east-2.amazonaws.com/imagen9.webp");
-}/*# sourceMappingURL=categories.css.map */
+}
+/*# sourceMappingURL=categories.css.map */

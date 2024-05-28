@@ -4,7 +4,7 @@ const burger = document.querySelector(".burger-list");
 const fries = document.querySelector(".fries-list");
 const tipyc = document.querySelector(".typic-list");
 const hotdog = document.querySelector(".hotdog-list");
-const card = document.querySelector(".cardContainer"); 
+const card = document.querySelector(".cards"); 
 const URL_GENERAL = 'http://localhost:3000/restaurantes'
 
 
