@@ -2,18 +2,17 @@
 @import "bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 $--secunday: #FF9900;
-$--primary:#212529 ;
+$--primary: #212529;
 $--white :#D3D3D3;
 $--font-txt: 25px;
 $--font-title: 50px;
-$OverpassMonoFont: 'Overpass Mono', monospace;
-$PTSansFont: 'PT Sans', sans-serif;
-$AlexBrushFont: 'Alex Brush', cursive;
 $lightbrown: rgb(190, 128, 64);
-$black: rgb(0,0,0);
-$darkgray: rgb(20,20,20);
-$lightgray: rgb(35,35,35);
-$--roboto-sans :"Roboto", sans-serif;
+$black: rgb(0, 0, 0);
+$darkgray: rgb(20, 20, 20);
+$lightgray: rgb(35, 35, 35);
+$--roboto-sans :"Roboto",
+sans-serif;
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +22,7 @@ $--roboto-sans :"Roboto", sans-serif;
 
 }
 
-p{
+p {
     font-size: $--font-txt;
 }
 
@@ -101,12 +100,12 @@ p{
     }
 }
 
-.imgs{
+.imgs {
     margin-top: 40px;
     text-align: center;
 }
 
-.imgs .container img{
+.imgs .container img {
     width: 92rem;
     height: 400px;
     border-radius: 20px;
@@ -126,107 +125,120 @@ p{
     align-items: center;
     font-size: $--font-title;
 }
-// ------ HEADER---------------------------
-
-
-
 
 // --- SECTION TEXT BANNER
 
 .carousel {
-    margin: 0 auto; /* Center the carousel horizontally */
-  }
+    margin: 0 auto;
+    /* Center the carousel horizontally */
+}
+
 .carousel-inner .carousel-item {
-  opacity: 0.6; /* Set opacity for carousel items */
+    opacity: 0.6;
+    /* Set opacity for carousel items */
 }
 
 .carousel-control-prev,
 .carousel-control-next {
-  opacity: 0.5; /* Set opacity for carousel controls */
+    opacity: 0.5;
+    /* Set opacity for carousel controls */
 }
 
 .carousel-indicators li {
-  opacity: 0.3; /* Set opacity for carousel indicators */
+    opacity: 0.3;
+    /* Set opacity for carousel indicators */
+}
+
+.carousel-responsive{
+    display: none;
 }
 
 /*==========Nosotros Section============*/
 
 .custom-font {
-    font-family:$--roboto-sans;
-    color:$--secunday;
-    font-size:75px;
-    line-height:0;
-  }
-  
-  .add-padding {
-    padding:25px;
+    font-family: $--roboto-sans;
+    color: $--secunday;
+    font-size: 75px;
+    line-height: 1;
+}
+
+.add-padding {
+    padding: 25px;
     background-color: $--white;
-  }
-  
-  .center-text {
-    margin-bottom:40px;
-    margin-top:30px;
-    color:$--white;
+}
+
+.center-text {
+    margin-bottom: 40px;
+    margin-top: 30px;
+    color: $--white;
+
     h2 {
-      margin-top:25px;
-      line-height:0;
+        margin-top: 25px;
     }
+
     p {
-      margin-top:0;
-      line-height:1.8;
-      color: $--white;
-      text-align: justify;
-      width: 90%;
-      font-size: $--font-txt;
+        margin-top: 0;
+        line-height: 1.8;
+        color: $--white;
+        text-align: justify;
+        width: 60%;
+        font-size: $--font-txt;
     }
+
     a {
-      color:$--secunday;
-      text-transform:uppercase;
-      font-size:15px;
-      font-weight:600;
-      letter-spacing:1px;
-      border-bottom:solid 2px $--white; 
+        color: $--secunday;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        border-bottom: solid 2px $--white;
     }
-  }
-  
-  .add-flex {
-    display:flex;
+}
+
+.add-flex {
+    display: flex;
     align-items: center;
 
-    .stuffed-cherries {
-      background:url('https://colombian-delights.s3.us-east-2.amazonaws.com/imagen28.webp')no-repeat center center;
-      background-size:cover;
-      height:315px;
-      width:80%;
+    .img-introduction{
+        width: 50%;
     }
-  }
+
+    .img-introduction img {
+        background-size: cover;
+        height: 315px;
+    }
+}
 
 /* End of header*/
 /*==========Categorias Section============*/
-#categorias{
+#categorias {
     padding: 40px;
 
 }
 
-.categorias{
+.categorias {
     margin: 30px 0;
     display: flex;
 }
+
 .categorias-icon {
     font-size: $--font-title;
     color: black;
 }
-.categorias-icon img{
+
+.categorias-icon img {
     width: 80%;
     border-radius: 10px;
     object-fit: cover;
 }
-.categorias-subtitle{
+
+.categorias-subtitle {
     text-transform: capitalize;
     color: $--secunday;
     font-size: $--font-txt;
 }
-.categorias-info{
+
+.categorias-info {
     margin-top: 10px;
     line-height: 1.4;
     font-weight: 200;
@@ -235,25 +247,57 @@ p{
 }
 
 .categorias-icon:hover .fas,
-.categorias-subtitle:hover{
- transition: transform 2s ease, color 2s ease;
- transform: translateY(-10px);
+.categorias-subtitle:hover {
+    transition: transform 2s ease, color 2s ease;
+    transform: translateY(-10px);
     color: #cd6100;
     cursor: pointer;
 }
-@media screen and (min-width: 576px){
-    .categorias-center{
+
+@media screen and (max-width: 430px) {
+    .carouselBanner  {
+        display: none;
+
+    }
+
+    .carousel-responsive {
+    display: block;
+    }
+
+.center-text{
+    text-align: center;
+
+    p{
+        width: 100%;
+    }
+}
+    .add-flex {
+        flex-direction: column;
+
+        .img-introduction{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+
+    
+}
+@media screen and (min-width: 576px) {
+    .categorias-center {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .categorias{
+
+
+    .categorias {
         flex: 0 0 calc(50% - 16px);
     }
 }
-@media screen and (min-width:972px){
-    .categorias{
+
+@media screen and (min-width:972px) {
+    .categorias {
         flex: 0 0 calc(33.3% - 16px);
     }
 }
-
