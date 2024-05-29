@@ -221,7 +221,7 @@
           <div class="title-box">
             <h1>Gestión de restaurantes</h1>
             <p class="lead">Bienvenido al panel de administrador, en este apartado podrás hacer toda la gestión de los
-              restaurantes sus respectivos datos</p>
+              restaurantes con sus respectivos datos.</p>
           </div>
 
           <!-- Create a table -->
@@ -229,35 +229,53 @@
           <body>
             <p class="btn btn-primary btn-nueva" href="d">Registrar restaurante </p>
             <form id="restaurantForm">
-              <input type="text" id="name" placeholder="Name" required>
-              <input type="text" id="description" placeholder="Description" required>
-              <input type="text" id="address" placeholder="Address" required>
-              <button type="submit">Submit</button>
-            </form>
+              <div class="flex-wrap">
+                <form id="restaurantForm">
+                  <!-- Nombre -->
+                  <label for="name" class="form-label">Nombre</label>
+                  <input type="text" class="form-control fw-light" id="name" placeholder="Nombre"
+                    style="display: inline-block; width: 20%;" required>
 
-            <table id="restaurantTable"
-              class="table table-striped table-hover table-bordered text-capitalize align-middle text-center caption-top">
-              <caption>Lista de Restaurantes</caption>
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">name</th>
-                  <th scope="col">description</th>
-                  <th scope="col">address</th>
-                  <th scope="col">options</th>
-                </tr>
-              </thead>
-              <tbody class="table-group-divider" id="tableBody">
-              </tbody>
-            </table>
+                  <!-- Teléfono -->
+                  <label for="phoneNumber" class="form-label">Teléfono</label>
+                  <input type="text" class="form-control fw-light" id="phoneNumber" placeholder="Teléfono"
+                    style="display: inline-block; width: 20%;" required>
+
+                  <!-- Dirección -->
+                  <label for="address" class="form-label">Dirección</label>
+                  <input type="text" class="form-control fw-light" id="address" placeholder="Dirección"
+                    style="display: inline-block; width: 20%;" required>
+
+                  <br>
+              <br>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <table id="restaurantTable"
+          class="table table-striped table-hover table-bordered text-capitalize align-middle text-center caption-top">
+          <caption>Lista de Restaurantes</caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">name</th>
+              <th scope="col">phoneNumber</th>
+              <th scope="col">address</th>
+              <th scope="col">options</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider" id="tableBody">
+          </tbody>
+        </table>
         </div>
         </div>
       </section>
       <footer class="page-footer">
       </footer>
     </section>
-
   </main>
+
   <!-- Footer which is common to others pages -->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 bg-dark mb-0">
     <p class="col-md-4 mb-0 text-light">&copy; 2024 Company, Inc</p>
