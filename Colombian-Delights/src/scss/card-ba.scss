@@ -22,7 +22,7 @@
 // }
 
 .cards {
-  width: 100%;
+  width: 90%;
     display: flex;
     flex-wrap: wrap;
     display: -webkit-flex;
@@ -34,19 +34,12 @@
   
 }
 
-.card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-}
 
 .card__like {
     width: 18px;
 }
 
-.card__clock {
-    width: 15px;
-  vertical-align: middle;
-    fill: #AD7D52;
-}
+
 .card__time {
     font-size: 12px;
     color: #AD7D52;
@@ -86,21 +79,20 @@ border-top-right-radius: 12px;
     width: 100%;
   position: absolute;
     height: 235px;
-  border-top-left-radius: 12px;
-border-top-right-radius: 12px;
+
 top: 0;
   
 }
 .card {
-  margin-right: 25px;
+  margin-right: 5px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-  background-color: #d30a0a;
-    width: 27.3%;
+  background-color: #ffb82e;
+  width: calc(26.33% - 25px); /* Ajusta el ancho aquí */
   position: relative;
-  border-radius: 12px;
+  border-radius: 0px;
   overflow: hidden;
   margin: 50px;
-  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+  box-shadow: 0px 13px 10px -7px rgba(255, 204, 65, 0.1);
 }
 .card:hover {
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
@@ -108,10 +100,8 @@ top: 0;
 }
 
 .card__info {
-z-index: 2;
-  background-color: #ead54d;
-  border-bottom-left-radius: 12px;
-border-bottom-right-radius: 12px;
+  z-index: 2;
+  background-color: #ffb82e;
    padding: 16px 24px 24px 24px;
 }
 
@@ -121,7 +111,7 @@ border-bottom-right-radius: 12px;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
-  color: #868686;
+  color: #ffb82e;
 }
 
 .card__title {
@@ -139,7 +129,7 @@ border-bottom-right-radius: 12px;
 .card__author {
     font-weight: 600;
     text-decoration: none;
-    color: #AD7D52;
+    color: #ffff;
 }
 
 .card:hover .card__img--hover {

@@ -1,22 +1,14 @@
-// main.js
-import { burgerListener } from './Categories_Componentes/ShowCards'
-// main.js
-import { friesListener } from './Categories_Componentes/ShowCards'
-
-import { tipicasListener } from './Categories_Componentes/ShowCards.js'
-import { hotdogsListener } from './Categories_Componentes/ShowCards.js'
-
-import {URL_GENERAL} from './Categories_Componentes/ShowCards.js'
+import {URL_GENERAL} from './ShowCards'
 const searchForm = document.getElementById('search-bar');
 const searchInput = searchForm.querySelector('input');
 
-const respuesta = await fetch(URL_GENERAL);
-const data = await respuesta.json();
-console.log(data); // Add this line to log the data
 
 searchForm.addEventListener('submit', async (event) => {
     event.preventDefault();
     const searchTerm = searchInput.value.toLowerCase();
+
+    const respuesta = await fetch(URL_GENERAL);
+    const data = await respuesta.json();
 
     if (data && data.restaurantes) {
         const filteredRestaurants = data.restaurantes.filter(restaurant =>
@@ -48,11 +40,3 @@ searchForm.addEventListener('submit', async (event) => {
         console.error('Data is not in the expected format:', data);
     }
 });
-
-
-hotdogsListener()
-tipicasListener()
-burgerListener()
-friesListener()
-
- 
