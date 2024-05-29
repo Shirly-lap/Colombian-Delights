@@ -1,4 +1,4 @@
-# Colombian-Delights ![Welcome](https://github.com/Shirly-lap/Colombian-Delights/assets/85028697/cc395fd8-7507-44d9-b4a7-bc89e43584a1)
+# Colombian-Delights
 
 Informative application that allows you to discover new places with gastronomic proposals near where you are. In addition to that, it gives entrepreneurs the opportunity to publicize their products.
 
