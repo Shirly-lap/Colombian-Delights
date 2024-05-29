@@ -224,11 +224,17 @@
               restaurantes sus respectivos datos</p>
           </div>
 
-          <a class="btn btn-primary btn-nueva" href="d"><b>+</b> Registrar restaurante </a>
-
           <!-- Create a table -->
 
           <body>
+            <p class="btn btn-primary btn-nueva" href="d">Registrar restaurante </p>
+            <form id="restaurantForm">
+              <input type="text" id="name" placeholder="Name" required>
+              <input type="text" id="description" placeholder="Description" required>
+              <input type="text" id="address" placeholder="Address" required>
+              <button type="submit">Submit</button>
+            </form>
+
             <table id="restaurantTable"
               class="table table-striped table-hover table-bordered text-capitalize align-middle text-center caption-top">
               <caption>Lista de Restaurantes</caption>
@@ -244,15 +250,6 @@
               <tbody class="table-group-divider" id="tableBody">
               </tbody>
             </table>
-
-            <form id="restaurantForm">
-              <input type="text" id="name" placeholder="Name" required>
-              <input type="text" id="description" placeholder="Description" required>
-              <input type="text" id="address" placeholder="Address" required>
-              <button type="submit">Submit</button>
-            </form>
-
-
         </div>
         </div>
       </section>

@@ -83,65 +83,66 @@
       }
     },
     {
-      "id": "3",
-      "name": "Comidas la 70",
-      "description": "la 70 se destaca con sus creativas hamburguesas. Los clientes adoran la BrotherBurgers y la Pataguesa, siempre acompañadas de papas fritas irresistibles y hot dogs únicos. Este lugar es una fiesta para los sentidos, donde cada mordisco es una nueva aventura de sabor que celebra la modernidad y la tradición.",
-      "address": "123 Street #45-67, Medellin",
+      "id": "2",
+      "name": "The Typical Restaurant",
+      "description": "The Typical Restaurant es un rincón encantador que celebra la rica tradición culinaria de Medellín. Cada plato, desde la robusta Bandeja Paisa hasta el reconfortante Sancochito y el desayuno clásico Calentao, está preparado con amor y recetas que han pasado de generación en generación. Aquí, cada visita es un viaje nostálgico a la cocina de la abuela, donde los sabores auténticos y los aromas familiares llenan el aire.",
+      "address": "67 Street #89-01, Medellín",
       "menu": {
         "hamburgers": [
           {
-            "id": 8,
-            "name": "BrotherBurgers",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen9.webp"
-          },
-          {
-            "id": 9,
-            "name": "Pataguesa",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen14.webp"
-          },
-          {
-            "id": 41,
-            "name": "Cheddar Burger",
-            "image": "https://example.com/cheddar_burger.jpg"
-          },
-          {
-            "id": 42,
-            "name": "Mushroom Burger",
-            "image": "https://example.com/mushroom_burger.jpg"
+            "id": 36,
+            "name": "Hamburguesa de Res",
+            "image": "https://example.com/hamburguesa_de_res.jpg"
           }
         ],
         "frenchFries": [
           {
-            "id": 10,
-            "name": "DetoPapas",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen53.webp"
-          },
-          {
-            "id": 43,
-            "name": "Papas con Ajo",
-            "image": "https://example.com/papas_con_ajo.jpg"
+            "id": 37,
+            "name": "Papas Fritas con Trufa",
+            "image": "https://example.com/papas_fritas_con_trufa.jpg"
           }
         ],
         "tipicas": [
           {
-            "id": 44,
-            "name": "Chicharrón con Arepa",
-            "image": "https://example.com/chicharron_con_arepa.jpg"
+            "id": 5,
+            "name": "Bandeja Paisa",
+            "image": "https://telemedellin.tv/wp-content/uploads/2024/03/Top-5-de-comidas-tipicas-que-todo-visitante-deberia-probar-en-Medellin.jpeg"
+          },
+          {
+            "id": 6,
+            "name": "Sancochito",
+            "image": "https://colombiapais.com/gastronomia-colombiana/gastronomia-medellin/sancocho-antioqueno.jpg"
+          },
+          {
+            "id": 7,
+            "name": "Calentao",
+            "image": "https://www.campi.com.co/wp-content/uploads/2023/04/Campi-Desayuno-antioqueno.webp"
+          },
+          {
+            "id": 38,
+            "name": "Tamales",
+            "image": "https://example.com/tamales.jpg"
+          },
+          {
+            "id": 39,
+            "name": "Arepas",
+            "image": "https://example.com/arepas.jpg"
           }
         ],
         "hotDogs": [
           {
-            "id": 11,
-            "name": "Hotdogsito",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen6.webp"
-          },
-          {
-            "id": 45,
-            "name": "Hot Dog Italiano",
-            "image": "https://example.com/hot_dog_italiano.jpg"
+            "id": 40,
+            "name": "Hot Dog Tradicional",
+            "image": "https://example.com/hot_dog_tradicional.jpg"
           }
         ]
       }
+    },
+    {
+      "name": "Comidas la 70",
+      "description": "la 70 se destaca con sus creativas hamburguesas. Los clientes adoran la BrotherBurgers y la Pataguesa, siempre acompañadas de papas fritas irresistibles y hot dogs únicos. Este lugar es una fiesta para los sentidos, donde cada mordisco es una nueva aventura de sabor que celebra la modernidad y la tradición.",
+      "address": "123 Street #45-67, Medelli",
+      "id": "3"
     },
     {
       "id": "4",
@@ -1223,33 +1224,10 @@
       }
     },
     {
-      "id": "22",
-      "name": "Bistro Burger",
-      "description": "Bistro Burger ofrece una experiencia culinaria que combina la elegancia de un bistró con la sencillez de una hamburguesa bien hecha. Sus opciones incluyen la Classic Bistro Burger y la Blue Cheese Burger, siempre servidas con papas rústicas.",
-      "address": "1313 Street #44-55, Medellin",
-      "menu": {
-        "hamburgers": [
-          {
-            "id": 64,
-            "name": "Classic Bistro Burger",
-            "image": "https://example.com/classicbistroburger.jpg"
-          },
-          {
-            "id": 65,
-            "name": "Blue Cheese Burger",
-            "image": "https://example.com/bluecheeseburger.jpg"
-          }
-        ],
-        "frenchFries": [
-          {
-            "id": 66,
-            "name": "Rustic Fries",
-            "image": "https://example.com/rusticfries.jpg"
-          }
-        ],
-        "tipicas": [],
-        "hotDogs": []
-      }
+      "id": "657d",
+      "name": "don pedro",
+      "description": "dsfdsfdsfdsf",
+      "address": "dfsfds"
     }
   ]
 }

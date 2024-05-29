@@ -55,7 +55,7 @@ async function loadRestaurants() {
             row.innerHTML = `
                 <td>${restaurant.id}</td>
                 <td>${restaurant.name}</td>
-                <td>${restaurant.description}</td>
+                <td>${restaurant.name}</td>
                 <td>${restaurant.address}</td>
                 <td>
                     <button type="button" data-id=${restaurant.id} class="btn btn-warning">Edit</button>
