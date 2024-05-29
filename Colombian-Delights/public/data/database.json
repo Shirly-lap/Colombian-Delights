@@ -1,142 +1,10 @@
 {
   "restaurantes": [
     {
-      "id": "1",
-      "name": "Restaurante doña marta",
-      "description": "En una esquina bulliciosa de Medellín, Restaurante doña marta se ha convertido en un favorito local. Los vecinos conocen bien el aroma tentador de la Hamburguesa Clásica y la popular Hamburguesa Doble Carne, servidas con papas fritas crujientes y grandes hot dogs. Es el lugar donde las familias se reúnen y los amigos comparten risas mientras disfrutan de una deliciosa comida rápida con un toque casero y acogedor.",
-      "address": "123 Street #45-67, Medellin",
-      "menu": {
-        "hamburgers": [
-          {
-            "id": 1,
-            "name": "Hamburguesa Clásica",
-            "image": "https://images.ecestaticos.com/CXJr7WaerAWg8tX9h2BsfQjCulU=/0x0:2121x1414/600x315/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/348/61b/a7e/34861ba7e45bd4ca8232ec0ccbd5be64.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Hamburguesa Doble Carne",
-            "description": "Hamburguesa con el doble de carne y queso cheddar",
-            "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/92/e1/89/hamburguesa-double-b.jpg"
-          },
-          {
-            "id": 27,
-            "name": "Hamburguesa BBQ",
-            "image": "https://example.com/hamburguesa_bbq.jpg"
-          },
-          {
-            "id": 28,
-            "name": "Hamburguesa de Pollo",
-            "image": "https://example.com/hamburguesa_pollo.jpg"
-          },
-          {
-            "id": 29,
-            "name": "Hamburguesa Vegana",
-            "image": "https://example.com/hamburguesa_vegana.jpg"
-          }
-        ],
-        "frenchFries": [
-          {
-            "id": 3,
-            "name": "Big papas",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen47.webp"
-          },
-          {
-            "id": 30,
-            "name": "Papas con Queso",
-            "image": "https://example.com/papas_con_queso.jpg"
-          },
-          {
-            "id": 31,
-            "name": "Papas con Bacon",
-            "image": "https://example.com/papas_con_bacon.jpg"
-          }
-        ],
-        "tipicas": [
-          {
-            "id": 32,
-            "name": "Arepa con Queso",
-            "image": "https://example.com/arepa_con_queso.jpg"
-          },
-          {
-            "id": 33,
-            "name": "Empanadas de Pollo",
-            "image": "https://example.com/empanadas_de_pollo.jpg"
-          }
-        ],
-        "hotDogs": [
-          {
-            "id": 4,
-            "name": "Puppet",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen24.webp"
-          },
-          {
-            "id": 34,
-            "name": "Hot Dog con Queso",
-            "image": "https://example.com/hot_dog_con_queso.jpg"
-          },
-          {
-            "id": 35,
-            "name": "Hot Dog Picante",
-            "image": "https://example.com/hot_dog_picante.jpg"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2",
       "name": "The Typical Restaurant",
-      "description": "The Typical Restaurant es un rincón encantador que celebra la rica tradición culinaria de Medellín. Cada plato, desde la robusta Bandeja Paisa hasta el reconfortante Sancochito y el desayuno clásico Calentao, está preparado con amor y recetas que han pasado de generación en generación. Aquí, cada visita es un viaje nostálgico a la cocina de la abuela, donde los sabores auténticos y los aromas familiares llenan el aire.",
+      "phoneNumber": "5254",
       "address": "67 Street #89-01, Medellín",
-      "menu": {
-        "hamburgers": [
-          {
-            "id": 36,
-            "name": "Hamburguesa de Res",
-            "image": "https://example.com/hamburguesa_de_res.jpg"
-          }
-        ],
-        "frenchFries": [
-          {
-            "id": 37,
-            "name": "Papas Fritas con Trufa",
-            "image": "https://example.com/papas_fritas_con_trufa.jpg"
-          }
-        ],
-        "tipicas": [
-          {
-            "id": 5,
-            "name": "Bandeja Paisa",
-            "image": "https://telemedellin.tv/wp-content/uploads/2024/03/Top-5-de-comidas-tipicas-que-todo-visitante-deberia-probar-en-Medellin.jpeg"
-          },
-          {
-            "id": 6,
-            "name": "Sancochito",
-            "image": "https://colombiapais.com/gastronomia-colombiana/gastronomia-medellin/sancocho-antioqueno.jpg"
-          },
-          {
-            "id": 7,
-            "name": "Calentao",
-            "image": "https://www.campi.com.co/wp-content/uploads/2023/04/Campi-Desayuno-antioqueno.webp"
-          },
-          {
-            "id": 38,
-            "name": "Tamales",
-            "image": "https://example.com/tamales.jpg"
-          },
-          {
-            "id": 39,
-            "name": "Arepas",
-            "image": "https://example.com/arepas.jpg"
-          }
-        ],
-        "hotDogs": [
-          {
-            "id": 40,
-            "name": "Hot Dog Tradicional",
-            "image": "https://example.com/hot_dog_tradicional.jpg"
-          }
-        ]
-      }
+      "id": "2"
     },
     {
       "id": "3",
@@ -410,6 +278,24 @@
           }
         ]
       }
+    },
+    {
+      "id": "8326",
+      "name": "dfsf",
+      "description": "fdsfsd",
+      "address": "dfsdf"
+    },
+    {
+      "id": "42d7",
+      "name": "Restaurante doña marta",
+      "description": "En una esquina bulliciosa de Medellín, Restaurante doña marta se ha convertido en un favorito local. Los vecinos conocen bien el aroma tentador de la Hamburguesa Clásica y la popular Hamburguesa Doble Carne, servidas con papas fritas crujientes y grandes hot dogs. Es el lugar donde las familias se reúnen y los amigos comparten risas mientras disfrutan de una deliciosa comida rápida con un toque casero y acogedor.",
+      "address": "123 Street #45-67, Medellin"
+    },
+    {
+      "id": "bffa",
+      "name": "Shirly",
+      "phoneNumber": "505445",
+      "address": "cararad"
     }
   ]
 }
