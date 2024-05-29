@@ -2,8 +2,10 @@
 export const URL_GENERAL = 'http://localhost:3000/restaurantes'
 const fries = document.querySelector(".fries-list");
 const tipyc = document.querySelector(".typic-list");
-
-const card = document.querySelector(".cards"); 
+const constinerCards = document.querySelector(".cards")
+const restaurantDetailElement = document.getElementById('restaurant-detail');
+const restaurantDetailContentElement = document.getElementById('restaurant-detail-content');
+const backButton = document.getElementById('back-button');
 
 
 
