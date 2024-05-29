@@ -1,415 +1,415 @@
 {
-  "restaurantes":[
-      {
-          "id": 1,
-          "name": "Restaurante doña marta",
-          "description": "En una esquina bulliciosa de Medellín, Restaurante doña marta se ha convertido en un favorito local. Los vecinos conocen bien el aroma tentador de la Hamburguesa Clásica y la popular Hamburguesa Doble Carne, servidas con papas fritas crujientes y grandes hot dogs. Es el lugar donde las familias se reúnen y los amigos comparten risas mientras disfrutan de una deliciosa comida rápida con un toque casero y acogedor.",
-          "address": "123 Street #45-67, Medellin",
-          "menu": {
-              "hamburgers": [
-                  {
-                      "id": 1,
-                      "name": "Hamburguesa Clásica",
-                      "image": "https://images.ecestaticos.com/CXJr7WaerAWg8tX9h2BsfQjCulU=/0x0:2121x1414/600x315/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/348/61b/a7e/34861ba7e45bd4ca8232ec0ccbd5be64.jpg"
-                  },
-                  {
-                      "id": 2,
-                      "name": "Hamburguesa Doble Carne",
-                      "description": "Hamburguesa con el doble de carne y queso cheddar",
-                      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/92/e1/89/hamburguesa-double-b.jpg"
-                  },
-                  {
-                      "id": 27,
-                      "name": "Hamburguesa BBQ",
-                      "image": "https://example.com/hamburguesa_bbq.jpg"
-                  },
-                  {
-                      "id": 28,
-                      "name": "Hamburguesa de Pollo",
-                      "image": "https://example.com/hamburguesa_pollo.jpg"
-                  },
-                  {
-                      "id": 29,
-                      "name": "Hamburguesa Vegana",
-                      "image": "https://example.com/hamburguesa_vegana.jpg"
-                  }
-              ],
-              "frenchFries": [
-                  {
-                      "id": 3,
-                      "name": "Big papas",
-                      "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen47.webp"
-                  },
-                  {
-                      "id": 30,
-                      "name": "Papas con Queso",
-                      "image": "https://example.com/papas_con_queso.jpg"
-                  },
-                  {
-                      "id": 31,
-                      "name": "Papas con Bacon",
-                      "image": "https://example.com/papas_con_bacon.jpg"
-                  }
-              ],
-              "tipicas": [
-                  {
-                      "id": 32,
-                      "name": "Arepa con Queso",
-                      "image": "https://example.com/arepa_con_queso.jpg"
-                  },
-                  {
-                      "id": 33,
-                      "name": "Empanadas de Pollo",
-                      "image": "https://example.com/empanadas_de_pollo.jpg"
-                  }
-              ],
-              "hotDogs": [
-                  {
-                      "id": 4,
-                      "name": "Puppet",
-                      "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen24.webp"
-                  },
-                  {
-                      "id": 34,
-                      "name": "Hot Dog con Queso",
-                      "image": "https://example.com/hot_dog_con_queso.jpg"
-                  },
-                  {
-                      "id": 35,
-                      "name": "Hot Dog Picante",
-                      "image": "https://example.com/hot_dog_picante.jpg"
-                  }
-              ]
+  "restaurantes": [
+    {
+      "id": "1",
+      "name": "Restaurante doña marta",
+      "description": "En una esquina bulliciosa de Medellín, Restaurante doña marta se ha convertido en un favorito local. Los vecinos conocen bien el aroma tentador de la Hamburguesa Clásica y la popular Hamburguesa Doble Carne, servidas con papas fritas crujientes y grandes hot dogs. Es el lugar donde las familias se reúnen y los amigos comparten risas mientras disfrutan de una deliciosa comida rápida con un toque casero y acogedor.",
+      "address": "123 Street #45-67, Medellin",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 1,
+            "name": "Hamburguesa Clásica",
+            "image": "https://images.ecestaticos.com/CXJr7WaerAWg8tX9h2BsfQjCulU=/0x0:2121x1414/600x315/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/348/61b/a7e/34861ba7e45bd4ca8232ec0ccbd5be64.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Hamburguesa Doble Carne",
+            "description": "Hamburguesa con el doble de carne y queso cheddar",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/92/e1/89/hamburguesa-double-b.jpg"
+          },
+          {
+            "id": 27,
+            "name": "Hamburguesa BBQ",
+            "image": "https://example.com/hamburguesa_bbq.jpg"
+          },
+          {
+            "id": 28,
+            "name": "Hamburguesa de Pollo",
+            "image": "https://example.com/hamburguesa_pollo.jpg"
+          },
+          {
+            "id": 29,
+            "name": "Hamburguesa Vegana",
+            "image": "https://example.com/hamburguesa_vegana.jpg"
           }
-      },
-      {
-          "id": 2,
-          "name": "The Typical Restaurant",
-          "description": "The Typical Restaurant es un rincón encantador que celebra la rica tradición culinaria de Medellín. Cada plato, desde la robusta Bandeja Paisa hasta el reconfortante Sancochito y el desayuno clásico Calentao, está preparado con amor y recetas que han pasado de generación en generación. Aquí, cada visita es un viaje nostálgico a la cocina de la abuela, donde los sabores auténticos y los aromas familiares llenan el aire.",
-          "address": "67 Street #89-01, Medellín",
-          "menu": {
-              "hamburgers": [
-                  {
-                      "id": 36,
-                      "name": "Hamburguesa de Res",
-                      "image": "https://example.com/hamburguesa_de_res.jpg"
-                  }
-              ],
-              "frenchFries": [
-                  {
-                      "id": 37,
-                      "name": "Papas Fritas con Trufa",
-                      "image": "https://example.com/papas_fritas_con_trufa.jpg"
-                  }
-              ],
-              "tipicas": [
-                  {
-                      "id": 5,
-                      "name": "Bandeja Paisa",
-                      "image": "https://telemedellin.tv/wp-content/uploads/2024/03/Top-5-de-comidas-tipicas-que-todo-visitante-deberia-probar-en-Medellin.jpeg"
-                  },
-                  {
-                      "id": 6,
-                      "name": "Sancochito",
-                      "image": "https://colombiapais.com/gastronomia-colombiana/gastronomia-medellin/sancocho-antioqueno.jpg"
-                  },
-                  {
-                      "id": 7,
-                      "name": "Calentao",
-                      "image": "https://www.campi.com.co/wp-content/uploads/2023/04/Campi-Desayuno-antioqueno.webp"
-                  },
-                  {
-                      "id": 38,
-                      "name": "Tamales",
-                      "image": "https://example.com/tamales.jpg"
-                  },
-                  {
-                      "id": 39,
-                      "name": "Arepas",
-                      "image": "https://example.com/arepas.jpg"
-                  }
-              ],
-              "hotDogs": [
-                  {
-                      "id": 40,
-                      "name": "Hot Dog Tradicional",
-                      "image": "https://example.com/hot_dog_tradicional.jpg"
-                  }
-              ]
+        ],
+        "frenchFries": [
+          {
+            "id": 3,
+            "name": "Big papas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen47.webp"
+          },
+          {
+            "id": 30,
+            "name": "Papas con Queso",
+            "image": "https://example.com/papas_con_queso.jpg"
+          },
+          {
+            "id": 31,
+            "name": "Papas con Bacon",
+            "image": "https://example.com/papas_con_bacon.jpg"
           }
-      },
-      {
-          "id": 3,
-          "name": "Comidas la 70",
-          "description": "la 70 se destaca con sus creativas hamburguesas. Los clientes adoran la BrotherBurgers y la Pataguesa, siempre acompañadas de papas fritas irresistibles y hot dogs únicos. Este lugar es una fiesta para los sentidos, donde cada mordisco es una nueva aventura de sabor que celebra la modernidad y la tradición.",
-          "address": "123 Street #45-67, Medellin",
-          "menu": {
-              "hamburgers": [
-                  {
-                      "id": 8,
-                      "name": "BrotherBurgers",
-                      "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen9.webp"
-                  },
-                  {
-                      "id": 9,
-                      "name": "Pataguesa",
-                      "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen14.webp"
-                  },
-                  {
-                      "id": 41,
-                      "name": "Cheddar Burger",
-                      "image": "https://example.com/cheddar_burger.jpg"
-                  },
-                  {
-                      "id": 42,
-                      "name": "Mushroom Burger",
-                      "image": "https://example.com/mushroom_burger.jpg"
-                  }
-              ],
-              "frenchFries": [
-                  {
-                      "id": 10,
-                      "name": "DetoPapas",
-                      "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen53.webp"
-                  },
-                  {
-                      "id": 43,
-                      "name": "Papas con Ajo",
-                      "image": "https://example.com/papas_con_ajo.jpg"
-                  }
-              ],
-              "tipicas": [
-                  {
-                      "id": 44,
-                      "name": "Chicharrón con Arepa",
-                      "image": "https://example.com/chicharron_con_arepa.jpg"
-                  }
-              ],
-              "hotDogs": [
-                  {
-                      "id": 11,
-                      "name": "Hotdogsito",
-                      "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen6.webp"
-                  },
-                  {
-                      "id": 45,
-                      "name": "Hot Dog Italiano",
-                      "image": "https://example.com/hot_dog_italiano.jpg"
-                  }
-              ]
+        ],
+        "tipicas": [
+          {
+            "id": 32,
+            "name": "Arepa con Queso",
+            "image": "https://example.com/arepa_con_queso.jpg"
+          },
+          {
+            "id": 33,
+            "name": "Empanadas de Pollo",
+            "image": "https://example.com/empanadas_de_pollo.jpg"
           }
-      },
-      {
-          "id": 4,
-          "name": "Fast Food Fiesta",
-          "description": "Fast Food Fiesta es un lugar animado donde la calidad y el sabor se encuentran en cada plato. La Cheeseburger y la Bacon Burger son las estrellas del menú, complementadas con papas rizadas y un sabroso Chili Dog. Es el refugio perfecto para aquellos que buscan una comida rápida pero memorable, en un ambiente lleno de energía y buena compañía.",
-          "address": "789 Street #12-34, Medellin",
-          "menu": {
-              "hamburgers": [
-                  {
-                      "id": 12,
-                      "name": "Cheeseburger",
-                      "price": 15000,
-                      "image": "https://www.sargento.com/assets/Uploads/Recipe/Image/burger_0.jpg"
-                  },
-                  {
-                      "id": 13,
-                      "name": "Bacon Burger",
-                      "price": 18000,
-                      "image": "https://www.fullerssugarhouse.com/wp-content/uploads/2021/08/maplebaconburger.jpg"
-                  },
-                  {
-                      "id": 46,
-                      "name": "Guacamole Burger",
-                      "price": 19000,
-                      "image": "https://example.com/guacamole_burger.jpg"
-                  },
-                  {
-                      "id": 47,
-                      "name": "Jalapeño Burger",
-                      "price": 17000,
-                      "image": "https://example.com/jalapeno_burger.jpg"
-                  },
-                  {
-                      "id": 48,
-                      "name": "Blue Cheese Burger",
-                      "price": 20000,
-                      "image": "https://example.com/blue_cheese_burger.jpg"
-                  }
-              ],
-              "frenchFries": [
-                  {
-                      "id": 14,
-                      "name": "Curly Fries",
-                      "price": 8000,
-                      "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen51.webp"
-                  },
-                  {
-                      "id": 49,
-                      "name": "Sweet Potato Fries",
-                      "price": 8500,
-                      "image": "https://example.com/sweet_potato_fries.jpg"
-                  },
-                  {
-                      "id": 50,
-                      "name": "Truffle Fries",
-                      "price": 9000,
-                      "image": "https://example.com/truffle_fries.jpg"
-                  },
-                  {
-                      "id": 51,
-                      "name": "Garlic Parmesan Fries",
-                      "price": 9500,
-                      "image": "https://example.com/garlic_parmesan_fries.jpg"
-                  }
-              ],
-              "tipicas": [
-                  {
-                      "id": 52,
-                      "name": "Arepas con Queso",
-                      "price": 7000,
-                      "image": "https://example.com/arepas_con_queso.jpg"
-                  },
-                  {
-                      "id": 53,
-                      "name": "Empanadas de Carne",
-                      "price": 6000,
-                      "image": "https://example.com/empanadas_de_carne.jpg"
-                  },
-                  {
-                      "id": 54,
-                      "name": "Chicharrón con Arepa",
-                      "price": 8500,
-                      "image": "https://example.com/chicharron_con_arepa.jpg"
-                  }
-              ],
-              "hotDogs": [
-                  {
-                      "id": 15,
-                      "name": "Chili Dog",
-                      "price": 12000,
-                      "image": "https://example.com/chilidog.jpg"
-                  },
-                  {
-                      "id": 55,
-                      "name": "Cheese Dog",
-                      "price": 11000,
-                      "image": "https://example.com/cheese_dog.jpg"
-                  },
-                  {
-                      "id": 56,
-                      "name": "Bacon Wrapped Dog",
-                      "price": 13000,
-                      "image": "https://example.com/bacon_wrapped_dog.jpg"
-                  },
-                  {
-                      "id": 57,
-                      "name": "Spicy Dog",
-                      "price": 12500,
-                      "image": "https://example.com/spicy_dog.jpg"
-                  }
-              ]
+        ],
+        "hotDogs": [
+          {
+            "id": 4,
+            "name": "Puppet",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen24.webp"
+          },
+          {
+            "id": 34,
+            "name": "Hot Dog con Queso",
+            "image": "https://example.com/hot_dog_con_queso.jpg"
+          },
+          {
+            "id": 35,
+            "name": "Hot Dog Picante",
+            "image": "https://example.com/hot_dog_picante.jpg"
           }
-      },
-      {
-          "id": 5,
-          "name": "Typical Tastes",
-          "description": "En Typical Tastes, cada plato cuenta una historia de la herencia culinaria de Colombia. Los comensales disfrutan de un Ajiaco que calienta el alma y de Empanadas que crujen al primer mordisco. Es un lugar donde los sabores tradicionales se celebran y los visitantes pueden sentir la conexión con las raíces colombianas en cada bocado.",
-          "address": "321 Street #76-54, Medellin",
-          "menu": {
-              "hamburgers": [
-                  {
-                      "id": 58,
-                      "name": "Hamburguesa de Res",
-                      "price": 16000,
-                      "image": "https://example.com/hamburguesa_de_res.jpg"
-                  },
-                  {
-                      "id": 59,
-                      "name": "Hamburguesa de Pollo",
-                      "price": 15000,
-                      "image": "https://example.com/hamburguesa_de_pollo.jpg"
-                  },
-                  {
-                      "id": 60,
-                      "name": "Hamburguesa Vegana",
-                      "price": 17000,
-                      "image": "https://example.com/hamburguesa_vegana.jpg"
-                  }
-              ],
-              "frenchFries": [
-                  {
-                      "id": 61,
-                      "name": "Papas Rústicas",
-                      "price": 7500,
-                      "image": "https://example.com/papas_rusticas.jpg"
-                  },
-                  {
-                      "id": 62,
-                      "name": "Papas con Queso y Bacon",
-                      "price": 9000,
-                      "image": "https://example.com/papas_queso_bacon.jpg"
-                  },
-                  {
-                      "id": 63,
-                      "name": "Papas Cajún",
-                      "price": 8500,
-                      "image": "https://example.com/papas_cajun.jpg"
-                  }
-              ],
-              "tipicas": [
-                  {
-                      "id": 16,
-                      "name": "Ajiaco",
-                      "price": 25000,
-                      "image": "https://example.com/ajiaco.jpg"
-                  },
-                  {
-                      "id": 17,
-                      "name": "Empanadas",
-                      "price": 5000,
-                      "image": "https://example.com/empanadas.jpg"
-                  },
-                  {
-                      "id": 64,
-                      "name": "Bandeja Paisa",
-                      "price": 28000,
-                      "image": "https://example.com/bandeja_paisa.jpg"
-                  },
-                  {
-                      "id": 65,
-                      "name": "Sancocho",
-                      "price": 24000,
-                      "image": "https://example.com/sancocho.jpg"
-                  },
-                  {
-                      "id": 66,
-                      "name": "Chicharrón",
-                      "price": 20000,
-                      "image": "https://example.com/chicharron.jpg"
-                  }
-              ],
-              "hotDogs": [
-                  {
-                      "id": 67,
-                      "name": "Hot Dog Tradicional",
-                      "price": 10000,
-                      "image": "https://example.com/hot_dog_tradicional.jpg"
-                  },
-                  {
-                      "id": 68,
-                      "name": "Hot Dog con Guacamole",
-                      "price": 12000,
-                      "image": "https://example.com/hot_dog_con_guacamole.jpg"
-                  },
-                  {
-                      "id": 69,
-                      "name": "Hot Dog Picante",
-                      "price": 12500,
-                      "image": "https://example.com/hot_dog_picante.jpg"
-                  }
-              ]
-          }
+        ]
       }
+    },
+    {
+      "id": "2",
+      "name": "The Typical Restaurant",
+      "description": "The Typical Restaurant es un rincón encantador que celebra la rica tradición culinaria de Medellín. Cada plato, desde la robusta Bandeja Paisa hasta el reconfortante Sancochito y el desayuno clásico Calentao, está preparado con amor y recetas que han pasado de generación en generación. Aquí, cada visita es un viaje nostálgico a la cocina de la abuela, donde los sabores auténticos y los aromas familiares llenan el aire.",
+      "address": "67 Street #89-01, Medellín",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 36,
+            "name": "Hamburguesa de Res",
+            "image": "https://example.com/hamburguesa_de_res.jpg"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 37,
+            "name": "Papas Fritas con Trufa",
+            "image": "https://example.com/papas_fritas_con_trufa.jpg"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 5,
+            "name": "Bandeja Paisa",
+            "image": "https://telemedellin.tv/wp-content/uploads/2024/03/Top-5-de-comidas-tipicas-que-todo-visitante-deberia-probar-en-Medellin.jpeg"
+          },
+          {
+            "id": 6,
+            "name": "Sancochito",
+            "image": "https://colombiapais.com/gastronomia-colombiana/gastronomia-medellin/sancocho-antioqueno.jpg"
+          },
+          {
+            "id": 7,
+            "name": "Calentao",
+            "image": "https://www.campi.com.co/wp-content/uploads/2023/04/Campi-Desayuno-antioqueno.webp"
+          },
+          {
+            "id": 38,
+            "name": "Tamales",
+            "image": "https://example.com/tamales.jpg"
+          },
+          {
+            "id": 39,
+            "name": "Arepas",
+            "image": "https://example.com/arepas.jpg"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 40,
+            "name": "Hot Dog Tradicional",
+            "image": "https://example.com/hot_dog_tradicional.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Comidas la 70",
+      "description": "la 70 se destaca con sus creativas hamburguesas. Los clientes adoran la BrotherBurgers y la Pataguesa, siempre acompañadas de papas fritas irresistibles y hot dogs únicos. Este lugar es una fiesta para los sentidos, donde cada mordisco es una nueva aventura de sabor que celebra la modernidad y la tradición.",
+      "address": "123 Street #45-67, Medellin",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 8,
+            "name": "BrotherBurgers",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen9.webp"
+          },
+          {
+            "id": 9,
+            "name": "Pataguesa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen14.webp"
+          },
+          {
+            "id": 41,
+            "name": "Cheddar Burger",
+            "image": "https://example.com/cheddar_burger.jpg"
+          },
+          {
+            "id": 42,
+            "name": "Mushroom Burger",
+            "image": "https://example.com/mushroom_burger.jpg"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 10,
+            "name": "DetoPapas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen53.webp"
+          },
+          {
+            "id": 43,
+            "name": "Papas con Ajo",
+            "image": "https://example.com/papas_con_ajo.jpg"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 44,
+            "name": "Chicharrón con Arepa",
+            "image": "https://example.com/chicharron_con_arepa.jpg"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 11,
+            "name": "Hotdogsito",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen6.webp"
+          },
+          {
+            "id": 45,
+            "name": "Hot Dog Italiano",
+            "image": "https://example.com/hot_dog_italiano.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "Fast Food Fiesta",
+      "description": "Fast Food Fiesta es un lugar animado donde la calidad y el sabor se encuentran en cada plato. La Cheeseburger y la Bacon Burger son las estrellas del menú, complementadas con papas rizadas y un sabroso Chili Dog. Es el refugio perfecto para aquellos que buscan una comida rápida pero memorable, en un ambiente lleno de energía y buena compañía.",
+      "address": "789 Street #12-34, Medellin",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 12,
+            "name": "Cheeseburger",
+            "price": 15000,
+            "image": "https://www.sargento.com/assets/Uploads/Recipe/Image/burger_0.jpg"
+          },
+          {
+            "id": 13,
+            "name": "Bacon Burger",
+            "price": 18000,
+            "image": "https://www.fullerssugarhouse.com/wp-content/uploads/2021/08/maplebaconburger.jpg"
+          },
+          {
+            "id": 46,
+            "name": "Guacamole Burger",
+            "price": 19000,
+            "image": "https://example.com/guacamole_burger.jpg"
+          },
+          {
+            "id": 47,
+            "name": "Jalapeño Burger",
+            "price": 17000,
+            "image": "https://example.com/jalapeno_burger.jpg"
+          },
+          {
+            "id": 48,
+            "name": "Blue Cheese Burger",
+            "price": 20000,
+            "image": "https://example.com/blue_cheese_burger.jpg"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 14,
+            "name": "Curly Fries",
+            "price": 8000,
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen51.webp"
+          },
+          {
+            "id": 49,
+            "name": "Sweet Potato Fries",
+            "price": 8500,
+            "image": "https://example.com/sweet_potato_fries.jpg"
+          },
+          {
+            "id": 50,
+            "name": "Truffle Fries",
+            "price": 9000,
+            "image": "https://example.com/truffle_fries.jpg"
+          },
+          {
+            "id": 51,
+            "name": "Garlic Parmesan Fries",
+            "price": 9500,
+            "image": "https://example.com/garlic_parmesan_fries.jpg"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 52,
+            "name": "Arepas con Queso",
+            "price": 7000,
+            "image": "https://example.com/arepas_con_queso.jpg"
+          },
+          {
+            "id": 53,
+            "name": "Empanadas de Carne",
+            "price": 6000,
+            "image": "https://example.com/empanadas_de_carne.jpg"
+          },
+          {
+            "id": 54,
+            "name": "Chicharrón con Arepa",
+            "price": 8500,
+            "image": "https://example.com/chicharron_con_arepa.jpg"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 15,
+            "name": "Chili Dog",
+            "price": 12000,
+            "image": "https://example.com/chilidog.jpg"
+          },
+          {
+            "id": 55,
+            "name": "Cheese Dog",
+            "price": 11000,
+            "image": "https://example.com/cheese_dog.jpg"
+          },
+          {
+            "id": 56,
+            "name": "Bacon Wrapped Dog",
+            "price": 13000,
+            "image": "https://example.com/bacon_wrapped_dog.jpg"
+          },
+          {
+            "id": 57,
+            "name": "Spicy Dog",
+            "price": 12500,
+            "image": "https://example.com/spicy_dog.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "Typical Tastes",
+      "description": "En Typical Tastes, cada plato cuenta una historia de la herencia culinaria de Colombia. Los comensales disfrutan de un Ajiaco que calienta el alma y de Empanadas que crujen al primer mordisco. Es un lugar donde los sabores tradicionales se celebran y los visitantes pueden sentir la conexión con las raíces colombianas en cada bocado.",
+      "address": "321 Street #76-54, Medellin",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 58,
+            "name": "Hamburguesa de Res",
+            "price": 16000,
+            "image": "https://example.com/hamburguesa_de_res.jpg"
+          },
+          {
+            "id": 59,
+            "name": "Hamburguesa de Pollo",
+            "price": 15000,
+            "image": "https://example.com/hamburguesa_de_pollo.jpg"
+          },
+          {
+            "id": 60,
+            "name": "Hamburguesa Vegana",
+            "price": 17000,
+            "image": "https://example.com/hamburguesa_vegana.jpg"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 61,
+            "name": "Papas Rústicas",
+            "price": 7500,
+            "image": "https://example.com/papas_rusticas.jpg"
+          },
+          {
+            "id": 62,
+            "name": "Papas con Queso y Bacon",
+            "price": 9000,
+            "image": "https://example.com/papas_queso_bacon.jpg"
+          },
+          {
+            "id": 63,
+            "name": "Papas Cajún",
+            "price": 8500,
+            "image": "https://example.com/papas_cajun.jpg"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 16,
+            "name": "Ajiaco",
+            "price": 25000,
+            "image": "https://example.com/ajiaco.jpg"
+          },
+          {
+            "id": 17,
+            "name": "Empanadas",
+            "price": 5000,
+            "image": "https://example.com/empanadas.jpg"
+          },
+          {
+            "id": 64,
+            "name": "Bandeja Paisa",
+            "price": 28000,
+            "image": "https://example.com/bandeja_paisa.jpg"
+          },
+          {
+            "id": 65,
+            "name": "Sancocho",
+            "price": 24000,
+            "image": "https://example.com/sancocho.jpg"
+          },
+          {
+            "id": 66,
+            "name": "Chicharrón",
+            "price": 20000,
+            "image": "https://example.com/chicharron.jpg"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 67,
+            "name": "Hot Dog Tradicional",
+            "price": 10000,
+            "image": "https://example.com/hot_dog_tradicional.jpg"
+          },
+          {
+            "id": 68,
+            "name": "Hot Dog con Guacamole",
+            "price": 12000,
+            "image": "https://example.com/hot_dog_con_guacamole.jpg"
+          },
+          {
+            "id": 69,
+            "name": "Hot Dog Picante",
+            "price": 12500,
+            "image": "https://example.com/hot_dog_picante.jpg"
+          }
+        ]
+      }
+    }
   ]
 }
