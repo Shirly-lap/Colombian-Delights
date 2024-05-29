@@ -30,7 +30,7 @@
     align-items: center;
     text-align: center;
     -webkit-justify-content: center;
-    max-width: 1400px;
+    max-width: 1100px;
   
 }
 
@@ -94,7 +94,7 @@ top: 0;
 .card {
   margin-right: 25px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-  background-color: #fff;
+  background-color: #d30a0a;
     width: 27.3%;
   position: relative;
   border-radius: 12px;
@@ -109,7 +109,7 @@ top: 0;
 
 .card__info {
 z-index: 2;
-  background-color: #fff;
+  background-color: #ead54d;
   border-bottom-left-radius: 12px;
 border-bottom-right-radius: 12px;
    padding: 16px 24px 24px 24px;
