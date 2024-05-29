@@ -1,6 +1,91 @@
 {
   "restaurantes": [
     {
+      "id": "1",
+      "name": "Restaurante doña marta",
+      "description": "En una esquina bulliciosa de Medellín, Restaurante doña marta se ha convertido en un favorito local. Los vecinos conocen bien el aroma tentador de la Hamburguesa Clásica y la popular Hamburguesa Doble Carne, servidas con papas fritas crujientes y grandes hot dogs. Es el lugar donde las familias se reúnen y los amigos comparten risas mientras disfrutan de una deliciosa comida rápida con un toque casero y acogedor.",
+      "address": "123 Street #45-67, Medellin",
+      "phoneNumber": 320715687,
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 1,
+            "name": "Hamburguesa Clásica",
+            "image": "https://images.ecestaticos.com/CXJr7WaerAWg8tX9h2BsfQjCulU=/0x0:2121x1414/600x315/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/348/61b/a7e/34861ba7e45bd4ca8232ec0ccbd5be64.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Hamburguesa Doble Carne",
+            "description": "Hamburguesa con el doble de carne y queso cheddar",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/92/e1/89/hamburguesa-double-b.jpg"
+          },
+          {
+            "id": 27,
+            "name": "Hamburguesa BBQ",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen209.webp"
+          },
+          {
+            "id": 28,
+            "name": "Hamburguesa de Pollo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen212.webp"
+          },
+          {
+            "id": 29,
+            "name": "Hamburguesa Vegana",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen175.webp"
+            
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 3,
+            "name": "Big papas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen47.webp"
+          },
+          {
+            "id": 30,
+            "name": "Papas con Queso",
+            "image": "https://example.com/papas_con_queso.jpg"
+          },
+          {
+            "id": 31,
+            "name": "Papas con Bacon",
+            "image": "https://example.com/papas_con_bacon.jpg"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 32,
+            "name": "Arepa con Queso",
+            "image": "https://example.com/arepa_con_queso.jpg"
+          },
+          {
+            "id": 33,
+            "name": "Empanadas de Pollo",
+            "image": "https://example.com/empanadas_de_pollo.jpg"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 4,
+            "name": "Puppet",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen24.webp"
+          },
+          {
+            "id": 34,
+            "name": "Hot Dog con Queso",
+            "image": "https://example.com/hot_dog_con_queso.jpg"
+          },
+          {
+            "id": 35,
+            "name": "Hot Dog Picante",
+            "image": "https://example.com/hot_dog_picante.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
       "name": "The Typical Restaurant",
       "phoneNumber": "5254",
       "address": "67 Street #89-01, Medellín",
@@ -26,12 +111,12 @@
           {
             "id": 41,
             "name": "Cheddar Burger",
-            "image": "https://example.com/cheddar_burger.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen177.webp"
           },
           {
             "id": 42,
             "name": "Mushroom Burger",
-            "image": "https://example.com/mushroom_burger.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen214.webp"
           }
         ],
         "frenchFries": [
