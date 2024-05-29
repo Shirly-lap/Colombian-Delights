@@ -67,3 +67,7 @@ Pablo Lopez - https://github.com/PablolzDev
 Oscar Muñoz - https://github.com/osmun15
 
 Project's link: https://github.com/Shirly-lap/Colombian-Delights.git
+
+Mockup: https://www.figma.com/design/k4G2c85ORmfn7ChGpnVSHY/Mockup?node-id=0-1&t=fm49EjXk3qLdo0I3-1
+
+Trello: https://trello.com/invite/b/vohEnePW/ATTIb89a531290cd2ec53aeac1599748d1c40001A8D9/colombian-delights
