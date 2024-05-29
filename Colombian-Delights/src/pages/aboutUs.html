@@ -9,13 +9,17 @@
   <link rel='stylesheet'
     href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css'>
   <link rel="stylesheet" href="../scss/aboutUs.scss">
+
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('9NMjdshcX_5xWsgTg')
+    </script>
   <title>Colombian Delights</title>
 </head>
 
 <body class="bg-dark">
-  <!-- <div class="sidebard d-flex justify-content-center">
-    <img src="./public/img/products/hamburguer.png" alt=""> 
-  </div> -->
   <header>
     <div class="px-3 py-2 bg-black bg-opacity-25 ">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
@@ -48,133 +52,175 @@
     </div>
   </header>
 
-  <main>
-    <section>
-      <div class="up-page">
-        <h1>Descubre Nuestra Historia</h1>
-        <br>
-        <p class="fs-4">Explora nuestro proyecto y descubre la Esencia de Quiénes Somos y Nuestro Compromiso.</p>
-      </div>
-      <div id="carouselExampleAutoplaying" class="carousel slide  text-light text-center" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active  ">
-            <video muted autoplay width="472">
-              <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+10.mp4" type="video/mp4">
-            </video>
-            <video muted autoplay width="472">
-    
-              <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+4.mp4" type="video/mp4">
-            </video>
-    
-            <video muted autoplay width="472">
-              <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+14.mp4" type="video/mp4">
-            </video>
-            <video muted autoplay width="472">
-    
-              <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+6.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="carousel-item">
-            <video muted autoplay width="472">
-    
-              <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+16.mp4" type="video/mp4">
-            </video>
-    
-            <video muted autoplay width="472">
-    
-              <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+3.mp4" type="video/mp4">
-            </video>
-    
-            <video muted autoplay width="472">
-    
-              <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+10.mp4" type="video/mp4">
-            </video>
-    
-            <video muted autoplay width="472">
-    
-              <source src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+7.mp4" type="video/mp4">
-            </video>
-          </div>
-
+  <!-- This section consists of the main title, a paragraph, and video -->
+  <main class="bg-dark">
+    <section> 
+        <div>
+            <h1 class="display-4 text-center" style="color: #FF9900;">Descubre Nuestra Historia</h1>
+            <p class="fs-4 text-center" style="color: white;">Explora nuestro proyecto y descubre la Esencia de
+                Quiénes Somos y Nuestro
+                Compromiso.</p>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    
-      </div>
-    </section>
-    <section class="d-flex align-items-center">
-      <div class="form-contains">
-        <div class="contains-input-form d-flex gap-4 flex-column align-items-center">
-          <h3 class="fs-3 text-dark">Datos Personales</h3>
-          <input class="input-form form-control" type="text" placeholder="Nombre Del Negocio" aria-label="default input example">
-          <input class="input-form form-control" type="text" placeholder="Direccion" aria-label="default input example">
-          <input class="input-form form-control" type="text" placeholder="Telefono" aria-label="default input example">
-          <input class="input-form form-control" type="text" placeholder="Nombre Del Propietario" aria-label="default input example">
-          <textarea class="input-form form-control" placeholder="Observacion Adicional (opcional)"
-            id="exampleFormControlTextarea1" rows="3"></textarea>
-          <br>
-          <button type="button" class="btn btn-dark"><i class="bi bi-send">  Enviar Registro</i></button>
-        </div>
-        <article>
-          <div class="form-cotains-title">
-            <h2 class="form-title">Registra Tu Negocio En Colombian Delight</h2>
-          </div>
-          <div class="contain-text-form">
-            <p class="fs-3">Registra tus datos y los de tu negocio, nosotros te contactaremos para hacer una alianza que
-              impulse tu negocio en el comercio gastronomico dando a conocer todos tus productos.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="us-contains">
-      <div>
-        <h3 class="us-p fs-3">Colombian Delights.</h3>
         <br>
-        <p class="us-p"> Te conecta con experiencias culinarias excepcionales y te muestra un mundo gastronomico poco
-          explorado, ayudando a los emprendedores locales destacando sus restaurantes y puestos callejeros poco
-          conocidos, esta plataforma brinda a estos negocios una oportunidad invaluable para brillar y darsen a conocer
-          compartiendo sus tesoros culinarios.</p>
-      </div>
-      <div class="us-contain-image">
-        <img class="marticas" src="https://colombian-delights.s3.us-east-2.amazonaws.com/marticas.png" alt="" class="">
-      </div>
+        <div class="ratio ratio-16x9">
+            <iframe width="495" height="295" src="https://colombian-delights.s3.us-east-2.amazonaws.com/videos/video+8.mp4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </section>
-    <section>
-      <div class="team-title">
-        <h2>Equipo Colombian Delights.</h2>
-      </div>
-      <div class="team-contains">
-        <article class="team-person">
-          <img class="team-image" src="../../public/img/icons/foto-shirly.webp" alt="">
-          <p class="team-text fs-4"><strong>Shirly Mejia</strong></p>
-          <p class="fs-5">Rol</p>
-        </article>
-        <article>
-          <img class="team-image" src="../../public/img/icons/foto camilo.webp" alt="">
-          <p class="team-text fs-4"><strong>Camilo Barreneche</strong></p>
-          <p class="fs-5">Rol</p>
-        </article>
-        <article>
-          <img class="team-image" src="../../public/img/icons/foto pablo.webp" alt="">
-          <p class="team-text fs-4"><strong>Pablo Lopez</strong></p>
-          <p class="fs-5">Rol</p>
-        </article>
-        <article>
-          <img class="team-image" src="../../public/img/icons/foto oscar.webp" alt="">
-          <p class="team-text fs-4"><strong>Oscar Muñoz</strong></p>
-          <p class="fs-5">Rol</p>
-        </article>
-      </div>
+    <br>
+    <!-- This section has the registration form to the page and a representative image -->
+    <section class="mt-5">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1" style="color: #FF9900;">Registra Tu Negocio En
+                    Colombian Delights.</h2>
+                <br>
+                <p class="lead" style="color: white;">Registra tus datos y los de tu negocio, nosotros te
+                    contactaremos para hacer una
+                    alianza que impulse tu negocio en el comercio gastronomico dando a conocer todos tus productos.
+                </p>
+                <br>
+                <form class="row g-3 container" id="contact-form"
+                    style="background-color: #FF9900; border-radius: 10px; padding-bottom: 10px;">
+                    <div class="col-12">
+                        <label for="from_name" class="form-label"><strong>Nombre Del Negocio</strong></label>
+                        <input type="text" class="form-control" id="from_name" placeholder="nombre negocio"
+                            name="Nombre Negocio" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="from_namep" class="form-label"><strong>Nombre Del Propietario</strong></label>
+                        <input type="text" class="form-control" id="from_namep" placeholder="nombre propietario"
+                            name="Nombre Propietario" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="email_id" class="form-label"><strong>Correo</strong></label>
+                        <input type="email" class="form-control" id="email_id" placeholder="correo"
+                            name="correo" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="from_num" class="form-label"><strong>Telefono</strong></label>
+                        <input type="text" class="form-control" id="from_num" placeholder="telefono"
+                            name="Telefono" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputAddress" class="form-label"><strong>Deireccion</strong></label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="direccion"
+                            name="Direccion" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label"><strong>Tipo De Negocio</strong></label>
+                        <select id="inputState" class="form-select" name="Tipo Negocio" required>
+                            <option selected>eligue tu tipo de negocio</option>
+                            <option>Restaurante</option>
+                            <option>Punto De Calle</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck"
+                                name="Autoriza Contacto: si" required>
+                            <label class="form-check-label" for="gridCheck">
+                                <strong>Autoriza Contactarlo Con Los Datos Proporcionados</strong>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-dark" value="Send Email" id="contact-btn"><i class="bi bi-send"> Enviar</i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-3"
+                    width="550" height="500" src="https://colombian-delights.s3.us-east-2.amazonaws.com/martica.png"
+                    role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                    focusable="false" style="border-style: solid; border-color: #FF9900;">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
+                    fill="var(--bs-secondary-color)" dy=".3em"></text>
+                </img>
+            </div>
+        </div>
     </section>
-  </main>
+    <br>
+    <!-- In this section is a summary of our main objective -->
+    <section class="mt-5"
+        style="background-color: #FF9900; border-top-left-radius: 60px; border-bottom-left-radius: 60px;">
+        <div class="row featurette align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1 text-center text-dark"><strong>Colombian
+                        Delights.</strong></h2>
+                <br>
+                <p class="lead">Te conecta con experiencias culinarias excepcionales y te muestra un mundo
+                    gastronomico poco explorado, ayudando a los emprendedores locales destacando sus restaurantes y
+                    puestos callejeros poco conocidos, esta plataforma brinda a estos negocios una oportunidad
+                    invaluable para brillar y darsen a conocer compartiendo sus tesoros culinarios.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mt-2 mb-2 rounded-3"
+                    width="530" height="490"
+                    src="https://colombian-delights.s3.us-east-2.amazonaws.com/marticas.png" role="img"
+                    aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
+                    fill="var(--bs-secondary-color)" dy=".3em"></text>
+                </img>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- In this section are the photos of the team -->
+    <section class="mt-5">
+        <h1 class="display-5 text-center" style="color: #FF9900;">Equipo Colombian Delights.</h1>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-3 text-center">
+                <img class="bd-placeholder-img rounded-circle" width="130" height="130"
+                    src="../../public/img/icons/foto-shirly.webp" role="img"
+                    aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"
+                    style="border-style: solid; border-color: #FF9900">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                </img>
+                <h2 class="fw-normal" style="color: white;">Shirly Mejia</h2>
+                <p style="color: white;">Rol</p>
+            </div>
+            <div class="col-lg-3 text-center">
+                <img class="bd-placeholder-img rounded-circle" width="130" height="130"
+                    src="../../public/img/icons/foto camilo.webp" role="img"
+                    aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"
+                    style="border-style: solid; border-color: #FF9900">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                </img>
+                <h2 class="fw-normal" style="color: white;">Camilo Barreneche</h2>
+                <p style="color: white;">Rol</p>
+            </div>
+            <div class="col-lg-3 text-center">
+                <img class="bd-placeholder-img rounded-circle" width="130" height="130"
+                    src="../../public/img/icons/foto pablo.webp" role="img"
+                    aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"
+                    style="border-style: solid; border-color: #FF9900">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                </img>
+                <h2 class="fw-normal" style="color: white;">Pablo Lopez</h2>
+                <p style="color: white;">Rol</p>
+            </div>
+            <div class="col-lg-3 text-center">
+                <img class="bd-placeholder-img rounded-circle" width="130" height="130"
+                    src="../../public/img/icons/foto oscar.webp" role="img"
+                    aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"
+                    style="border-style: solid; border-color: #FF9900">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                </img>
+                <h2 class="fw-normal" style="color: white;">Oscar Muñoz</h2>
+                <p style="color: white;">Rol</p>
+            </div>
+        </div>
+    </section>
+</main>
 
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4  mb-0 bg-black bg-opacity-25">
     <p class="col-md-4 mb-0 text-light">&copy; 2024 Company, Inc</p>
@@ -191,7 +237,7 @@
       <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Acerca de nosotros</a></li>
     </ul>
   </footer>
-  <script type="module" src="../js/main.js"></script>
+  <script type="module" src="../js/aboutUs.js"></script>
 </body>
 
 </html>
