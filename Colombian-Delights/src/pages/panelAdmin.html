@@ -4,6 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="This is a project where you can discover new companies that offers excellent food" />
+  <meta name="keywords" content="Colombian-Delights, Food, Eating, Hamburguers, Hot Dogs, street foods">
+  <meta name="sitedomain" content="https://riwi.io/" />
+  <meta name="organization" content="Riwi_Dell" />
+  <meta name="author" content="Camilo Barreneche, Shirly Mejia, Oscar Muñoz, Pablo Lopez" />
+  <meta name="designer" content="Camilo Barreneche, Shirly Mejia, Oscar Muñoz, Pablo Lopez" />
+  <meta name="copyright" content="© 2024. All rights reserved">
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
+  <meta name="revisit-after" content="15days" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
   <link rel='stylesheet'
@@ -86,6 +97,8 @@
         <rect x="11.84" y="9.87" width="2" height="5.93" transform="translate(-5.32 12.84) rotate(-45)" />
       </symbol>
     </svg>
+
+    <!-- A new header for the panel's admin -->
     <header class="page-header">
       <nav>
 
@@ -211,41 +224,41 @@
               restaurantes sus respectivos datos</p>
           </div>
 
-          <a class="btn btn-primary btn-nueva" href="d"><b>+</b> Registrar restaurante </a>
+          <!-- Create a table -->
 
           <body>
+            <p class="btn btn-primary btn-nueva" href="d">Registrar restaurante </p>
+            <form id="restaurantForm">
+              <input type="text" id="name" placeholder="Name" required>
+              <input type="text" id="description" placeholder="Description" required>
+              <input type="text" id="address" placeholder="Address" required>
+              <button type="submit">Submit</button>
+            </form>
+
             <table id="restaurantTable"
               class="table table-striped table-hover table-bordered text-capitalize align-middle text-center caption-top">
-              <div>
-                <caption>Lista de Restaurantes</caption>
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">name</th>
-                    <th scope="col">description</th>
-                    <th scope="col">address</th>
-                    <th scope="col">options</th>
-                  </tr>
-                </thead>
-                <tbody class="table-group-divider" id="tableBody">
-                </tbody>
-              </div>
+              <caption>Lista de Restaurantes</caption>
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">name</th>
+                  <th scope="col">description</th>
+                  <th scope="col">address</th>
+                  <th scope="col">options</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider" id="tableBody">
+              </tbody>
             </table>
-
-
         </div>
         </div>
       </section>
       <footer class="page-footer">
-
       </footer>
-
     </section>
 
-
-
   </main>
-
+  <!-- Footer which is common to others pages -->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 bg-dark mb-0">
     <p class="col-md-4 mb-0 text-light">&copy; 2024 Company, Inc</p>
 
@@ -260,7 +273,7 @@
       <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Acerca de nosotros</a></li>
     </ul>
   </footer>
-  
+
   <script type="module" src="../js/admin.js"></script>
   <script type="module" src="../js/main.js"></script>
 </body>
