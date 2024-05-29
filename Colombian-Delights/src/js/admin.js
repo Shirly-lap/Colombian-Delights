@@ -41,6 +41,7 @@ tbody.addEventListener('click', async function (event) {
     }
 });
 
+// Function to load a restaurant
 async function loadRestaurants() {
     try {
         console.log('Loading restaurants');
@@ -68,6 +69,7 @@ async function loadRestaurants() {
     }
 }
 
+// Function to find a restaurant
 async function findRestaurant(id) {
     try {
         console.log(`Finding restaurant with id: ${id}`);
