@@ -29,8 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h2>${restaurant.name}</h2>
                 <p>${restaurant.description}</p>
             </div>
-
-            
         `).join('');
 
         // Añadir evento de clic a cada card
@@ -44,10 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Función para mostrar los detalles del restaurante
     function showRestaurantDetail(id, restaurants) {
-        const restaurant = restaurants.find(r => r.id === id);        
-        console.log(restaurant);
+        const restaurant = restaurants.find(r => r.id === id);
         if (restaurant) {
-            console.log('holaaa');
             restaurantDetailContentElement.innerHTML = `
                 <h1>${restaurant.name}</h1>
                 <p>${restaurant.description}</p>
