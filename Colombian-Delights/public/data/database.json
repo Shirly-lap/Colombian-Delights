@@ -5,64 +5,63 @@
       "name": "Restaurante doña marta",
       "description": "En una esquina bulliciosa de Medellín, Restaurante doña marta se ha convertido en un favorito local. Los vecinos conocen bien el aroma tentador de la Hamburguesa Clásica y la popular Hamburguesa Doble Carne, servidas con papas fritas crujientes y grandes hot dogs. Es el lugar donde las familias se reúnen y los amigos comparten risas mientras disfrutan de una deliciosa comida rápida con un toque casero y acogedor.",
       "address": "123 Street #45-67, Medellin",
-      "phoneNumber": 320715687,
+      "phoneNumber": "+57 123 456 7890",
       "menu": {
         "hamburgers": [
           {
             "id": 1,
             "name": "Hamburguesa Clásica",
-            "image": "https://images.ecestaticos.com/CXJr7WaerAWg8tX9h2BsfQjCulU=/0x0:2121x1414/600x315/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/348/61b/a7e/34861ba7e45bd4ca8232ec0ccbd5be64.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen175.webp"
           },
           {
             "id": 2,
             "name": "Hamburguesa Doble Carne",
             "description": "Hamburguesa con el doble de carne y queso cheddar",
-            "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/92/e1/89/hamburguesa-double-b.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen191.webp"
           },
           {
             "id": 27,
             "name": "Hamburguesa BBQ",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen209.webp"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen174.webp"
           },
           {
             "id": 28,
             "name": "Hamburguesa de Pollo",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen212.webp"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen193.webp"
           },
           {
             "id": 29,
             "name": "Hamburguesa Vegana",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen175.webp"
-            
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen207.webp"
           }
         ],
         "frenchFries": [
           {
             "id": 3,
             "name": "Big papas",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen47.webp"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen46.webp"
           },
           {
             "id": 30,
             "name": "Papas con Queso",
-            "image": "https://example.com/papas_con_queso.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen34.webp"
           },
           {
             "id": 31,
             "name": "Papas con Bacon",
-            "image": "https://example.com/papas_con_bacon.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen8.webp"
           }
         ],
         "tipicas": [
           {
             "id": 32,
             "name": "Arepa con Queso",
-            "image": "https://example.com/arepa_con_queso.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen25.webp"
           },
           {
             "id": 33,
             "name": "Empanadas de Pollo",
-            "image": "https://example.com/empanadas_de_pollo.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen133.webp"
           }
         ],
         "hotDogs": [
@@ -74,12 +73,12 @@
           {
             "id": 34,
             "name": "Hot Dog con Queso",
-            "image": "https://example.com/hot_dog_con_queso.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen202.webp"
           },
           {
             "id": 35,
             "name": "Hot Dog Picante",
-            "image": "https://example.com/hot_dog_picante.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen36.webp"
           }
         ]
       }
@@ -87,15 +86,65 @@
     {
       "id": "2",
       "name": "The Typical Restaurant",
-      "phoneNumber": "5254",
       "address": "67 Street #89-01, Medellín",
-      "id": "2"
+      "phoneNumber": "+57 987 654 3210",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 36,
+            "name": "Hamburguesa de Res",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen214.webp"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 37,
+            "name": "Papas Fritas con Trufa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen26.webp"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 5,
+            "name": "Bandeja Paisa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen172.webp"
+          },
+          {
+            "id": 6,
+            "name": "Sancochito",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen158.webp"
+          },
+          {
+            "id": 7,
+            "name": "Calentao",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen93.webp"
+          },
+          {
+            "id": 38,
+            "name": "Tamales",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen100.webp"
+          },
+          {
+            "id": 39,
+            "name": "Arepas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen103.webp"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 40,
+            "name": "Hot Dog Tradicional",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen178.webp"
+          }
+        ]
+      }
     },
     {
       "id": "3",
       "name": "Comidas la 70",
       "description": "la 70 se destaca con sus creativas hamburguesas. Los clientes adoran la BrotherBurgers y la Pataguesa, siempre acompañadas de papas fritas irresistibles y hot dogs únicos. Este lugar es una fiesta para los sentidos, donde cada mordisco es una nueva aventura de sabor que celebra la modernidad y la tradición.",
       "address": "123 Street #45-67, Medellin",
+      "phoneNumber": "+57 123 456 7891",
       "menu": {
         "hamburgers": [
           {
@@ -106,17 +155,17 @@
           {
             "id": 9,
             "name": "Pataguesa",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen14.webp"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen12.webp"
           },
           {
             "id": 41,
             "name": "Cheddar Burger",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen177.webp"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen191.webp"
           },
           {
             "id": 42,
             "name": "Mushroom Burger",
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen214.webp"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen190.webp"
           }
         ],
         "frenchFries": [
@@ -128,14 +177,14 @@
           {
             "id": 43,
             "name": "Papas con Ajo",
-            "image": "https://example.com/papas_con_ajo.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen51.webp"
           }
         ],
         "tipicas": [
           {
             "id": 44,
             "name": "Chicharrón con Arepa",
-            "image": "https://example.com/chicharron_con_arepa.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen16.webp"
           }
         ],
         "hotDogs": [
@@ -147,7 +196,7 @@
           {
             "id": 45,
             "name": "Hot Dog Italiano",
-            "image": "https://example.com/hot_dog_italiano.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen7.webp"
           }
         ]
       }
@@ -155,232 +204,156 @@
     {
       "id": "4",
       "name": "Fast Food Fiesta",
-      "description": "Fast Food Fiesta es un lugar animado donde la calidad y el sabor se encuentran en cada plato. La Cheeseburger y la Bacon Burger son las estrellas del menú, complementadas con papas rizadas y un sabroso Chili Dog. Es el refugio perfecto para aquellos que buscan una comida rápida pero memorable, en un ambiente lleno de energía y buena compañía.",
-      "address": "789 Street #12-34, Medellin",
+      "description": "Fast Food Fiesta es un lugar animado donde la calidad y el sabor se encuentran en cada plato. La Hamburguesa Especial y la hamburguesa con Queso y Bacon son irresistibles, y las papas fritas son el acompañamiento perfecto. No te pierdas sus hot dogs y comidas típicas que hacen honor a su nombre, ofreciendo una verdadera fiesta de comida rápida.",
+      "address": "124 Street #46-67, Medellin",
+      "phoneNumber": "+57 321 654 9870",
       "menu": {
         "hamburgers": [
           {
             "id": 12,
-            "name": "Cheeseburger",
-            "price": 15000,
-            "image": "https://www.sargento.com/assets/Uploads/Recipe/Image/burger_0.jpg"
+            "name": "Hamburguesa Especial",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen17.webp"
           },
           {
             "id": 13,
-            "name": "Bacon Burger",
-            "price": 18000,
-            "image": "https://www.fullerssugarhouse.com/wp-content/uploads/2021/08/maplebaconburger.jpg"
+            "name": "Hamburguesa con Queso y Bacon",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen19.webp"
           },
           {
             "id": 46,
-            "name": "Guacamole Burger",
-            "price": 19000,
-            "image": "https://example.com/guacamole_burger.jpg"
+            "name": "Hamburguesa BBQ con Pollo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen189.webp"
           },
           {
             "id": 47,
-            "name": "Jalapeño Burger",
-            "price": 17000,
-            "image": "https://example.com/jalapeno_burger.jpg"
-          },
-          {
-            "id": 48,
-            "name": "Blue Cheese Burger",
-            "price": 20000,
-            "image": "https://example.com/blue_cheese_burger.jpg"
+            "name": "Hamburguesa con Huevo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen205.webp"
           }
         ],
         "frenchFries": [
           {
             "id": 14,
-            "name": "Curly Fries",
-            "price": 8000,
-            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen51.webp"
+            "name": "Papas a la Francesa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen22.webp"
+          },
+          {
+            "id": 48,
+            "name": "Papas con Salsa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen33.webp"
           },
           {
             "id": 49,
-            "name": "Sweet Potato Fries",
-            "price": 8500,
-            "image": "https://example.com/sweet_potato_fries.jpg"
-          },
-          {
-            "id": 50,
-            "name": "Truffle Fries",
-            "price": 9000,
-            "image": "https://example.com/truffle_fries.jpg"
-          },
-          {
-            "id": 51,
-            "name": "Garlic Parmesan Fries",
-            "price": 9500,
-            "image": "https://example.com/garlic_parmesan_fries.jpg"
+            "name": "Papas Picantes",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen27.webp"
           }
         ],
         "tipicas": [
           {
-            "id": 52,
-            "name": "Arepas con Queso",
-            "price": 7000,
-            "image": "https://example.com/arepas_con_queso.jpg"
+            "id": 50,
+            "name": "Tamales Antioqueños",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen102.webp"
           },
           {
-            "id": 53,
-            "name": "Empanadas de Carne",
-            "price": 6000,
-            "image": "https://example.com/empanadas_de_carne.jpg"
-          },
-          {
-            "id": 54,
-            "name": "Chicharrón con Arepa",
-            "price": 8500,
-            "image": "https://example.com/chicharron_con_arepa.jpg"
+            "id": 51,
+            "name": "Empanadas Colombianas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen133.webp"
           }
         ],
         "hotDogs": [
           {
             "id": 15,
-            "name": "Chili Dog",
-            "price": 12000,
-            "image": "https://example.com/chilidog.jpg"
+            "name": "Hot Dog Especial",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen18.webp"
           },
           {
-            "id": 55,
-            "name": "Cheese Dog",
-            "price": 11000,
-            "image": "https://example.com/cheese_dog.jpg"
+            "id": 52,
+            "name": "Hot Dog con Bacon",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen202.webp"
           },
           {
-            "id": 56,
-            "name": "Bacon Wrapped Dog",
-            "price": 13000,
-            "image": "https://example.com/bacon_wrapped_dog.jpg"
-          },
-          {
-            "id": 57,
-            "name": "Spicy Dog",
-            "price": 12500,
-            "image": "https://example.com/spicy_dog.jpg"
+            "id": 53,
+            "name": "Hot Dog Mexicano",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen26.webp"
           }
         ]
       }
     },
     {
       "id": "5",
-      "name": "Typical Tastes",
-      "description": "En Typical Tastes, cada plato cuenta una historia de la herencia culinaria de Colombia. Los comensales disfrutan de un Ajiaco que calienta el alma y de Empanadas que crujen al primer mordisco. Es un lugar donde los sabores tradicionales se celebran y los visitantes pueden sentir la conexión con las raíces colombianas en cada bocado.",
-      "address": "321 Street #76-54, Medellin",
+      "name": "Gourmet Rápido",
+      "description": "Gourmet Rápido redefine la comida rápida con sus platos elegantes y deliciosos. Las hamburguesas gourmet, como la Burguesa de Trufa y la Hamburguesa con Foie Gras, se combinan perfectamente con papas fritas especiales y hot dogs gourmet. Este es el lugar para quienes buscan una experiencia de comida rápida con un toque de sofisticación.",
+      "address": "125 Street #47-67, Medellin",
+      "phoneNumber": "+57 654 321 0987",
       "menu": {
         "hamburgers": [
           {
-            "id": 58,
-            "name": "Hamburguesa de Res",
-            "price": 16000,
-            "image": "https://example.com/hamburguesa_de_res.jpg"
+            "id": 16,
+            "name": "Burguesa de Trufa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen21.webp"
           },
           {
-            "id": 59,
-            "name": "Hamburguesa de Pollo",
-            "price": 15000,
-            "image": "https://example.com/hamburguesa_de_pollo.jpg"
+            "id": 17,
+            "name": "Hamburguesa con Foie Gras",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen25.webp"
           },
           {
-            "id": 60,
-            "name": "Hamburguesa Vegana",
-            "price": 17000,
-            "image": "https://example.com/hamburguesa_vegana.jpg"
+            "id": 54,
+            "name": "Hamburguesa Gourmet de Pollo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen200.webp"
+          },
+          {
+            "id": 55,
+            "name": "Hamburguesa de Pato",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen206.webp"
           }
         ],
         "frenchFries": [
           {
-            "id": 61,
-            "name": "Papas Rústicas",
-            "price": 7500,
-            "image": "https://example.com/papas_rusticas.jpg"
+            "id": 18,
+            "name": "Papas Fritas con Parmesano",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen29.webp"
           },
           {
-            "id": 62,
-            "name": "Papas con Queso y Bacon",
-            "price": 9000,
-            "image": "https://example.com/papas_queso_bacon.jpg"
+            "id": 56,
+            "name": "Papas Dulces",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen31.webp"
           },
           {
-            "id": 63,
-            "name": "Papas Cajún",
-            "price": 8500,
-            "image": "https://example.com/papas_cajun.jpg"
+            "id": 57,
+            "name": "Papas Bravas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen32.webp"
           }
         ],
         "tipicas": [
           {
-            "id": 16,
+            "id": 58,
+            "name": "Cazuela de Fríjoles",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen130.webp"
+          },
+          {
+            "id": 59,
             "name": "Ajiaco",
-            "price": 25000,
-            "image": "https://example.com/ajiaco.jpg"
-          },
-          {
-            "id": 17,
-            "name": "Empanadas",
-            "price": 5000,
-            "image": "https://example.com/empanadas.jpg"
-          },
-          {
-            "id": 64,
-            "name": "Bandeja Paisa",
-            "price": 28000,
-            "image": "https://example.com/bandeja_paisa.jpg"
-          },
-          {
-            "id": 65,
-            "name": "Sancocho",
-            "price": 24000,
-            "image": "https://example.com/sancocho.jpg"
-          },
-          {
-            "id": 66,
-            "name": "Chicharrón",
-            "price": 20000,
-            "image": "https://example.com/chicharron.jpg"
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen135.webp"
           }
         ],
         "hotDogs": [
           {
-            "id": 67,
-            "name": "Hot Dog Tradicional",
-            "price": 10000,
-            "image": "https://example.com/hot_dog_tradicional.jpg"
+            "id": 19,
+            "name": "Hot Dog Gourmet",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen28.webp"
           },
           {
-            "id": 68,
-            "name": "Hot Dog con Guacamole",
-            "price": 12000,
-            "image": "https://example.com/hot_dog_con_guacamole.jpg"
+            "id": 60,
+            "name": "Hot Dog de Salchicha Alemana",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen34.webp"
           },
           {
-            "id": 69,
-            "name": "Hot Dog Picante",
-            "price": 12500,
-            "image": "https://example.com/hot_dog_picante.jpg"
+            "id": 61,
+            "name": "Hot Dog con Caviar",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen36.webp"
           }
         ]
       }
-    },
-    {
-      "id": "8326",
-      "name": "dfsf",
-      "description": "fdsfsd",
-      "address": "dfsdf"
-    },
-    {
-      "id": "42d7",
-      "name": "Restaurante doña marta",
-      "description": "En una esquina bulliciosa de Medellín, Restaurante doña marta se ha convertido en un favorito local. Los vecinos conocen bien el aroma tentador de la Hamburguesa Clásica y la popular Hamburguesa Doble Carne, servidas con papas fritas crujientes y grandes hot dogs. Es el lugar donde las familias se reúnen y los amigos comparten risas mientras disfrutan de una deliciosa comida rápida con un toque casero y acogedor.",
-      "address": "123 Street #45-67, Medellin"
-    },
-    {
-      "id": "bffa",
-      "name": "Shirly",
-      "phoneNumber": "505445",
-      "address": "cararad"
     }
   ]
 }
