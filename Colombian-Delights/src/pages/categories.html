@@ -60,34 +60,46 @@
     </div>
   </header>
 
-  <main >
+  <main class="container-fluid">
     <!-- Introduction Section -->
-    <section class="section-int">
+    <section  class="row section-int">
       <h1>Embarcate en un viaje culinario por colombia</h1>
-      <p class="parrafo-italic">Descubre tesoros culinarios escondidos en todo el país, donde aromas y
+      <p class="parrafo-italic">Descubre tesoros culinarios escondidos en todo el pais, donde aromas y
         tradiciones se entrelazan desde los Andes hasta el Caribe</p>
     </section>
 
-    <!-- Search Bar -->
-    <form class="d-flex justify-content-center align-items-center bg-black bg-opacity-10" id="search-bar" role="search">
-      <input class="form-control me-3 w-50 barra-color" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn boton-color" type="submit">Search</button>
-    </form>
 
-    <section class=" d-flex justify-content-between">
-      <div class=" mt-4 container">
-        <article class="cards ">
-      
-        </article>
+    <section class="row d-flex justify-content-center align-items-center bg-black bg-opacity-10" id="search-bar" role="search">
 
-      </div>
+    </section>
 
-      <div class="background-aside m-0 ">
+<!--  This section contains the aside of the menu and the container that have the cards  -->
+    <section class="row d-flex justify-content-between">
+
+      <article class="mt-4 container text-user col-12 col-lg-8 mt-4">
+        <div class="cards">
+          <div>
+            <h2 class="texto-contenido-card ">Mata ese antojo </h2>
+            <p class="" >Eligiendo una de las categorias de comida</p>
+          </div>
+          <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+    
+        </div>
+      </article>
+
+      <!-- The side bar of the categories whit a sticky position -->
+      <article class="col-12 col-lg-4 background-aside m-0">
         <div class="position-sticky " style="top: 2rem;">
+
           <div class=" mb-3  rounded">
             <h4 class="antojos mt-5 me-5 ">Antojitos De Medallo</h4>
             <div>
-
+              
+              <!-- the list that have the categories of the menu -->
               <ul class="list-unstyled me-5" id="categories-list">
                 <li>
                   <a class="d-flex flex-column gap-3 align-items-center link-body-emphasis text-decoration-none border-top w-50 container"
@@ -135,6 +147,9 @@
                     </div>
                   </a>
                 </li>
+                <!-- The end of the categories -->
+
+                <!-- this item list doesnt have nothing, but it has a border top to follow the aesthetics of the aside with the categories -->
                 <li>
                   <a class="d-flex flex-column gap-3 align-items-center link-body-emphasis text-decoration-none border-top w-50 container"
                     href="#">
@@ -144,11 +159,12 @@
                     </div>
                   </a>
                 </li>
+                <!-- Here ends the itemlist -->
               </ul>
             </div>
           </div>
         </div>
-      </div>
+      </article>
     </section>
   </main>
 
@@ -172,7 +188,7 @@
       </div>
   </div>
 </footer>
-  <script type="module" src="../js/Categories_Componentes/filter.js"></script>
+
   <script type="module" src="../js/HTMLcategories.js"></script>
   <script type="module" src="../js/main.js"></script>
 </body>
