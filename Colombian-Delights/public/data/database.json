@@ -86,7 +86,6 @@
     {
       "id": "2",
       "name": "The Typical Restaurant",
-      "description": "The Typical Restaurant es un rincón encantador que celebra la rica tradición culinaria de Medellín. Cada plato, desde la robusta Bandeja Paisa hasta el reconfortante Sancochito y el desayuno clásico Calentao, está preparado con amor y recetas que han pasado de generación en generación. Aquí, cada visita es un viaje nostálgico a la cocina de la abuela, donde los sabores auténticos y los aromas familiares llenan el aire.",
       "address": "67 Street #89-01, Medellín",
       "phoneNumber": "+57 987 654 3210",
       "menu": {

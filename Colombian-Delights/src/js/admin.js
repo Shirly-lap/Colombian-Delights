@@ -5,7 +5,7 @@ let form = document.querySelector('#restaurantForm');
 let id;
 
 const name = document.querySelector('#name'); 
-const description = document.querySelector('#description');
+const phoneNumber = document.querySelector('#phoneNumber');
 const address = document.querySelector('#address');
 
 form.addEventListener('submit', async (event) => {
@@ -13,10 +13,10 @@ form.addEventListener('submit', async (event) => {
     console.log('Form submitted');
     if (id === undefined) {
         console.log('Creating new restaurant');
-        await createRestaurant(name, description, address);
+        await createRestaurant(name, phoneNumber, address); 
     } else {
         console.log(`Updating restaurant with id: ${id}`);
-        await updateRestaurant(id, name, description, address);
+        await updateRestaurant(id, name, phoneNumber, address); 
     }
     await loadRestaurants();
     form.reset();
@@ -36,7 +36,7 @@ tbody.addEventListener('click', async function (event) {
         console.log(`Editing restaurant with id: ${id}`);
         const restaurantFound = await findRestaurant(id);
         name.value = restaurantFound.name;
-        description.value = restaurantFound.description;
+        phoneNumber.value = restaurantFound.phoneNumber; // Cambiado de 'description' a 'phoneNumber'
         address.value = restaurantFound.address;
     }
 });
@@ -55,7 +55,7 @@ async function loadRestaurants() {
             row.innerHTML = `
                 <td>${restaurant.id}</td>
                 <td>${restaurant.name}</td>
-                <td>${restaurant.name}</td>
+                <td>${restaurant.phoneNumber}</td>
                 <td>${restaurant.address}</td>
                 <td>
                     <button type="button" data-id=${restaurant.id} class="btn btn-warning">Edit</button>
@@ -84,10 +84,10 @@ async function findRestaurant(id) {
 }
 
 // Function to create a restaurant
-async function createRestaurant(name, description, address) {
+async function createRestaurant(name, phoneNumber, address) {
     const newRestaurant = {
         name: name.value,
-        description: description.value,
+        phoneNumber: phoneNumber.value, 
         address: address.value
     };
 
@@ -107,10 +107,10 @@ async function createRestaurant(name, description, address) {
 }
 
 // Function to update a restaurant
-async function updateRestaurant(id, name, description, address) {
+async function updateRestaurant(id, name, phoneNumber, address) { 
     const updateRestaurant = {
         name: name.value,
-        description: description.value,
+        phoneNumber: phoneNumber.value, 
         address: address.value
     };
 
