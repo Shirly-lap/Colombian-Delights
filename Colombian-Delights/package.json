@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "json-server": "^1.0.0-beta.0",
     "sass": "^1.77.2",
     "vite": "^5.2.11"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "sweetalert2": "^11.11.0"
   }
 }

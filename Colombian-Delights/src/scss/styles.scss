@@ -2,34 +2,28 @@
 @import "bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 $--secunday: #FF9900;
-$--primary: rgba(0, 0, 0, 0.66);
-$--font-txt: 20px;
+$--primary: #212529;
+$--white :#D3D3D3;
+$--font-txt: 25px;
+$--font-title: 50px;
+$lightbrown: rgb(190, 128, 64);
+$black: rgb(0, 0, 0);
+$darkgray: rgb(20, 20, 20);
+$lightgray: rgb(35, 35, 35);
+$--roboto-sans :"Roboto",
+sans-serif;
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: $--roboto-sans;
     font-weight: 200;
     font-style: normal;
 
 }
 
-
-.sidebard {
-    // background-color: $--secunday;
-    height: 55.3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-}
-
-.sidebard img{
-    width: 50rem;
-    margin-top: -80px;
-    
-
+p {
+    font-size: $--font-txt;
 }
 
 .containerScroll {
@@ -106,12 +100,12 @@ $--font-txt: 20px;
     }
 }
 
-.imgs{
+.imgs {
     margin-top: 40px;
     text-align: center;
 }
 
-.imgs .container img{
+.imgs .container img {
     width: 92rem;
     height: 400px;
     border-radius: 20px;
@@ -129,91 +123,183 @@ $--font-txt: 20px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-size: 50px;
+    font-size: $--font-title;
 }
-// ------ HEADER---------------------------
-
-header ul li{
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
 
 // --- SECTION TEXT BANNER
 
-.container-text{
-    margin-top: 5rem;
+.carousel {
+    margin: 0 auto;
+    /* Center the carousel horizontally */
+}
+
+.carousel-inner .carousel-item {
+    opacity: 0.6;
+    /* Set opacity for carousel items */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.5;
+    /* Set opacity for carousel controls */
+}
+
+.carousel-indicators li {
+    opacity: 0.3;
+    /* Set opacity for carousel indicators */
+}
+
+.carousel-responsive{
+    display: none;
+}
+
+/*==========Nosotros Section============*/
+
+.custom-font {
+    font-family: $--roboto-sans;
+    color: $--secunday;
+    font-size: 75px;
+    line-height: 1;
+}
+
+.add-padding {
+    padding: 25px;
+    background-color: $--white;
+}
+
+.center-text {
+    margin-bottom: 40px;
+    margin-top: 30px;
+    color: $--white;
+
+    h2 {
+        margin-top: 25px;
+    }
+
+    p {
+        margin-top: 0;
+        line-height: 1.8;
+        color: $--white;
+        text-align: justify;
+        width: 60%;
+        font-size: $--font-txt;
+    }
+
+    a {
+        color: $--secunday;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        border-bottom: solid 2px $--white;
+    }
+}
+
+.add-flex {
     display: flex;
-    flex-direction: column;
-    align-content: center;
- 
-    justify-content: center;
-}
+    align-items: center;
 
-.container-text p{
-    font-size: 20px;
-    font-weight: 200;
-    font-style: normal;
-    white-space: wrap;
+    .img-introduction{
+        width: 50%;
+    }
 
-   
-}
-
-.imgs .container img{
-    width: 60rem;
+    .img-introduction img {
+        background-size: cover;
+        height: 315px;
+    }
 }
 
 /* End of header*/
-/*==========About Section============*/
-#about{
+/*==========Categorias Section============*/
+#categorias {
     padding: 40px;
 
 }
 
-.about{
+.categorias {
     margin: 30px 0;
     display: flex;
 }
-.about-icon {
-    font-size: 60px;
+
+.categorias-icon {
+    font-size: $--font-title;
     color: black;
-    margin-right: 20px;
-}
-.about-icon img{
-    width: 100px;
-    border-radius: 10px;
-}
-.about-subtitle{
-    text-transform: capitalize;
-    color: $--secunday;
-    font-size: 25px;
-}
-.about-info{
-    margin-top: 10px;
-    line-height: 1.5;
-    font-weight: 200;
 }
 
-.about-icon:hover .fas,
-.about-subtitle:hover{
- transition: transform 2s ease, color 2s ease;
- transform: translateY(-10px);
+.categorias-icon img {
+    width: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.categorias-subtitle {
+    text-transform: capitalize;
+    color: $--secunday;
+    font-size: $--font-txt;
+}
+
+.categorias-info {
+    margin-top: 10px;
+    line-height: 1.4;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.categorias-icon:hover .fas,
+.categorias-subtitle:hover {
+    transition: transform 2s ease, color 2s ease;
+    transform: translateY(-10px);
     color: #cd6100;
     cursor: pointer;
 }
-@media screen and (min-width: 576px){
-    .about-center{
+
+@media screen and (max-width: 430px) {
+    .carouselBanner  {
+        display: none;
+
+    }
+
+    .carousel-responsive {
+    display: block;
+    }
+
+.center-text{
+    text-align: center;
+
+    p{
+        width: 100%;
+    }
+}
+    .add-flex {
+        flex-direction: column;
+
+        .img-introduction{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    footer{
+        p{
+            display: none;
+        }
+    }
+}
+@media screen and (min-width: 576px) {
+    .categorias-center {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .about{
+
+
+    .categorias {
         flex: 0 0 calc(50% - 16px);
     }
 }
-@media screen and (min-width:972px){
-    .about{
+
+@media screen and (min-width:972px) {
+    .categorias {
         flex: 0 0 calc(33.3% - 16px);
     }
 }

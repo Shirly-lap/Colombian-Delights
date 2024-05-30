@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="This is a project where you can discover new companies that offers excellent food" />
+  <meta name="keywords" content="Colombian-Delights, Food, Eating, Hamburguers, Hot Dogs, street foods">
+  <meta name="sitedomain" content="https://riwi.io/" />
+  <meta name="organization" content="Riwi_Dell" />
+  <meta name="author" content="Camilo Barreneche, Shirly Mejia, Oscar Muñoz, Pablo Lopez" />
+  <meta name="designer" content="Camilo Barreneche, Shirly Mejia, Oscar Muñoz, Pablo Lopez" />
+  <meta name="copyright" content="© 2024. All rights reserved">
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
+  <meta name="revisit-after" content="15days" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+  <link rel="stylesheet" href="../scss/cards.css">
+  <link rel="stylesheet" href="../scss/card-ba.css">
+  <link rel="stylesheet" href="../scss/categories.css">
+  <link rel="shortcut icon" href="../../public/img/icons/logo.svg" type="image/x-icon">
+  <title>Colombian Delights</title>
+</head>
+
+
+
+<body class="bg-dark">
+
+  <!-- Header -->
+  <header>
+    <div class="px-3 py-2 bg-black bg-opacity-25 ">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
+        <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+          <img class="bi me-2" width="300" height="100" role="img" aria-label="Colombia-Deli"
+            src="../../public/img/icons/logo.svg" alt="">
+        </a>
+
+        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+          <li>
+            <a href="./categories.html" class="nav-link text-white">
+              Comidas
+            </a>
+          </li>
+          <li>
+            <a href="profile2.html" class="nav-link text-white">
+              Emprendedores </a>
+          </li>
+          <li>
+            <a href="aboutUs.html" class="nav-link text-white">
+              Acerca de nosotros
+            </a>
+          </li>
+          <li>
+            <a href="panelAdmin.html" class="text-light">
+              <button type="button" class="btn btn-primary">admin</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-fluid">
+    <!-- Introduction Section -->
+    <section  class="row section-int">
+      <h1>Embarcate en un viaje culinario por colombia</h1>
+      <p class="parrafo-italic">Descubre tesoros culinarios escondidos en todo el pais, donde aromas y
+        tradiciones se entrelazan desde los Andes hasta el Caribe</p>
+    </section>
+
+
+    <section class="row d-flex justify-content-center align-items-center bg-black bg-opacity-10" id="search-bar" role="search">
+
+    </section>
+
+<!--  This section contains the aside of the menu and the container that have the cards  -->
+    <section class="row d-flex justify-content-between">
+
+      <article class="mt-4 container text-user col-12 col-lg-8 mt-4">
+        <div class="cards">
+          <div>
+            <h2 class="texto-contenido-card ">Mata ese antojo </h2>
+            <p class="" >Eligiendo una de las categorias de comida</p>
+          </div>
+          <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+    
+        </div>
+      </article>
+
+      <!-- The side bar of the categories whit a sticky position -->
+      <article class="col-12 col-lg-4 background-aside m-0">
+        <div class="position-sticky " style="top: 2rem;">
+
+          <div class=" mb-3  rounded">
+            <h4 class="antojos mt-5 me-5 ">Antojitos De Medallo</h4>
+            <div>
+              
+              <!-- the list that have the categories of the menu -->
+              <ul class="list-unstyled me-5" id="categories-list">
+                <li>
+                  <a class="d-flex flex-column gap-3 align-items-center link-body-emphasis text-decoration-none border-top w-50 container"
+                    href="#">
+                    <div class="">
+                      <img src="https://colombian-delights.s3.us-east-2.amazonaws.com/hamburguer.png" class="imgs burger-list"
+                        alt="">
+                    </div>
+                    <div class="col-lg-8">
+                      <h6 class="mb-0 text-center antojos2 ">Hamburguesas</h6>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column gap-3 align-items-center link-body-emphasis text-decoration-none fries-list border-top w-50 container"
+                    href="#">
+                    <div class="">
+                      <img src="../../public/img/salchipapa.webp" class="imgs fries-list" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                      <h6 class="mb-0 text-center antojos2">Salchipapas</h6>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column gap-3 align-items-center link-body-emphasis text-decoration-none border-top w-50 container"
+                    href="#">
+                    <div class="">
+                      <img src="../../public/img/1652370816559-6-comida-colombiana-removebg-preview.png" class="imgs typic-list"
+                        alt="">
+                    </div>
+                    <div class="col-lg-8">
+                      <h6 class="mb-0 text-center antojos2">Tipicas</h6>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column gap-3 align-items-center link-body-emphasis text-decoration-none border-top w-50 container"
+                    href="#">
+                    <div class="">
+                      <img src="../../public/img/perrito-removebg-preview.png" class="imgs hotdog-list" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                      <h6 class="mb-0 text-center antojos2">Perritos</h6>
+                    </div>
+                  </a>
+                </li>
+                <!-- The end of the categories -->
+
+                <!-- this item list doesnt have nothing, but it has a border top to follow the aesthetics of the aside with the categories -->
+                <li>
+                  <a class="d-flex flex-column gap-3 align-items-center link-body-emphasis text-decoration-none border-top w-50 container"
+                    href="#">
+                    <div class="col-lg-8">
+                      <h6 class="mb-0 text-center antojos2"></h6>
+
+                    </div>
+                  </a>
+                </li>
+                <!-- Here ends the itemlist -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+<!-- Footer -->
+<footer class="container-fluid bg-black bg-opacity-25 text-light py-3">
+  <div class="row">
+      <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+          &copy; 2024 Company, Inc
+      </div>
+      <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <a href="/" class="d-flex align-items-center justify-content-center link-body-emphasis text-decoration-none">
+              <img class="bi me-2" width="300" height="50" src="../../public/img/icons/logo.svg" alt="">
+          </a>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+          <ul class="nav justify-content-center justify-content-md-end">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Comidas</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Registrate con nosotros</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Acerca de nosotros</a></li>
+          </ul>
+      </div>
+  </div>
+</footer>
+
+  <script type="module" src="../js/HTMLcategories.js"></script>
+  <script type="module" src="../js/main.js"></script>
+</body>
+
+</html>

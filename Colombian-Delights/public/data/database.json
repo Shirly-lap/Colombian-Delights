@@ -1,0 +1,377 @@
+{
+  "restaurantes": [
+    {
+      "id": "1",
+      "name": "Restaurante doña marta",
+      "description": "En una esquina bulliciosa de Medellín, Restaurante doña marta se ha convertido en un favorito local. Los vecinos conocen bien el aroma tentador de la Hamburguesa Clásica y la popular Hamburguesa Doble Carne, servidas con papas fritas crujientes y grandes hot dogs. Es el lugar donde las familias se reúnen y los amigos comparten risas mientras disfrutan de una deliciosa comida rápida con un toque casero y acogedor.",
+      "address": "123 Street #45-67, Medellin",
+      "phoneNumber": "+57 123 456 7890",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 1,
+            "name": "Hamburguesa Clásica",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen175.webp"
+          },
+          {
+            "id": 2,
+            "name": "Hamburguesa Doble Carne",
+            "description": "Hamburguesa con el doble de carne y queso cheddar",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen191.webp"
+          },
+          {
+            "id": 27,
+            "name": "Hamburguesa BBQ",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen174.webp"
+          },
+          {
+            "id": 28,
+            "name": "Hamburguesa de Pollo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen193.webp"
+          },
+          {
+            "id": 29,
+            "name": "Hamburguesa Vegana",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen207.webp"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 3,
+            "name": "Big papas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen46.webp"
+          },
+          {
+            "id": 30,
+            "name": "Papas con Queso",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen34.webp"
+          },
+          {
+            "id": 31,
+            "name": "Papas con Bacon",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen8.webp"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 32,
+            "name": "Arepa con Queso",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen25.webp"
+          },
+          {
+            "id": 33,
+            "name": "Empanadas de Pollo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen133.webp"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 4,
+            "name": "Puppet",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen24.webp"
+          },
+          {
+            "id": 34,
+            "name": "Hot Dog con Queso",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen202.webp"
+          },
+          {
+            "id": 35,
+            "name": "Hot Dog Picante",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen36.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "The Typical Restaurant",
+      "address": "67 Street #89-01, Medellín",
+      "phoneNumber": "+57 987 654 3210",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 36,
+            "name": "Hamburguesa de Res",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen214.webp"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 37,
+            "name": "Papas Fritas con Trufa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen26.webp"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 5,
+            "name": "Bandeja Paisa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen172.webp"
+          },
+          {
+            "id": 6,
+            "name": "Sancochito",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen158.webp"
+          },
+          {
+            "id": 7,
+            "name": "Calentao",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen93.webp"
+          },
+          {
+            "id": 38,
+            "name": "Tamales",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen100.webp"
+          },
+          {
+            "id": 39,
+            "name": "Arepas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen103.webp"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 40,
+            "name": "Hot Dog Tradicional",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen178.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Comidas la 70",
+      "description": "la 70 se destaca con sus creativas hamburguesas. Los clientes adoran la BrotherBurgers y la Pataguesa, siempre acompañadas de papas fritas irresistibles y hot dogs únicos. Este lugar es una fiesta para los sentidos, donde cada mordisco es una nueva aventura de sabor que celebra la modernidad y la tradición.",
+      "address": "123 Street #45-67, Medellin",
+      "phoneNumber": "+57 123 456 7891",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 8,
+            "name": "BrotherBurgers",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen9.webp"
+          },
+          {
+            "id": 9,
+            "name": "Pataguesa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen12.webp"
+          },
+          {
+            "id": 41,
+            "name": "Cheddar Burger",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen191.webp"
+          },
+          {
+            "id": 42,
+            "name": "Mushroom Burger",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen190.webp"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 10,
+            "name": "DetoPapas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen53.webp"
+          },
+          {
+            "id": 43,
+            "name": "Papas con Ajo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen51.webp"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 44,
+            "name": "Chicharrón con Arepa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen16.webp"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 11,
+            "name": "Hotdogsito",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen6.webp"
+          },
+          {
+            "id": 45,
+            "name": "Hot Dog Italiano",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen7.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "Fast Food Fiesta",
+      "description": "Fast Food Fiesta es un lugar animado donde la calidad y el sabor se encuentran en cada plato. La Hamburguesa Especial y la hamburguesa con Queso y Bacon son irresistibles, y las papas fritas son el acompañamiento perfecto. No te pierdas sus hot dogs y comidas típicas que hacen honor a su nombre, ofreciendo una verdadera fiesta de comida rápida.",
+      "address": "124 Street #46-67, Medellin",
+      "phoneNumber": "+57 321 654 9870",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 12,
+            "name": "Hamburguesa Especial",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen17.webp"
+          },
+          {
+            "id": 13,
+            "name": "Hamburguesa con Queso y Bacon",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen19.webp"
+          },
+          {
+            "id": 46,
+            "name": "Hamburguesa BBQ con Pollo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen189.webp"
+          },
+          {
+            "id": 47,
+            "name": "Hamburguesa con Huevo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen205.webp"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 14,
+            "name": "Papas a la Francesa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen22.webp"
+          },
+          {
+            "id": 48,
+            "name": "Papas con Salsa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen33.webp"
+          },
+          {
+            "id": 49,
+            "name": "Papas Picantes",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen27.webp"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 50,
+            "name": "Tamales Antioqueños",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen102.webp"
+          },
+          {
+            "id": 51,
+            "name": "Empanadas Colombianas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen133.webp"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 15,
+            "name": "Hot Dog Especial",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen18.webp"
+          },
+          {
+            "id": 52,
+            "name": "Hot Dog con Bacon",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen202.webp"
+          },
+          {
+            "id": 53,
+            "name": "Hot Dog Mexicano",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen26.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "Gourmet Rápido",
+      "description": "Gourmet Rápido redefine la comida rápida con sus platos elegantes y deliciosos. Las hamburguesas gourmet, como la Burguesa de Trufa y la Hamburguesa con Foie Gras, se combinan perfectamente con papas fritas especiales y hot dogs gourmet. Este es el lugar para quienes buscan una experiencia de comida rápida con un toque de sofisticación.",
+      "address": "125 Street #47-67, Medellin",
+      "phoneNumber": "+57 654 321 0987",
+      "menu": {
+        "hamburgers": [
+          {
+            "id": 16,
+            "name": "Burguesa de Trufa",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen21.webp"
+          },
+          {
+            "id": 17,
+            "name": "Hamburguesa con Foie Gras",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen25.webp"
+          },
+          {
+            "id": 54,
+            "name": "Hamburguesa Gourmet de Pollo",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen200.webp"
+          },
+          {
+            "id": 55,
+            "name": "Hamburguesa de Pato",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen206.webp"
+          }
+        ],
+        "frenchFries": [
+          {
+            "id": 18,
+            "name": "Papas Fritas con Parmesano",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen29.webp"
+          },
+          {
+            "id": 56,
+            "name": "Papas Dulces",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen31.webp"
+          },
+          {
+            "id": 57,
+            "name": "Papas Bravas",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen32.webp"
+          }
+        ],
+        "tipicas": [
+          {
+            "id": 58,
+            "name": "Cazuela de Fríjoles",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen130.webp"
+          },
+          {
+            "id": 59,
+            "name": "Ajiaco",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen135.webp"
+          }
+        ],
+        "hotDogs": [
+          {
+            "id": 19,
+            "name": "Hot Dog Gourmet",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen28.webp"
+          },
+          {
+            "id": 60,
+            "name": "Hot Dog de Salchicha Alemana",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen34.webp"
+          },
+          {
+            "id": 61,
+            "name": "Hot Dog con Caviar",
+            "image": "https://colombian-delights.s3.us-east-2.amazonaws.com/imagen36.webp"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pablo",
+      "phoneNumber": "23456",
+      "address": "Cra 27 # 17-102",
+      "id": "0891"
+    },
+    {
+      "id": "7510",
+      "name": "Shirly Paola Mejia Acosta",
+      "phoneNumber": "3135372528",
+      "address": "Carrera 87A"
+    },
+    {
+      "id": "517a",
+      "name": "Oscar",
+      "phoneNumber": "6765756",
+      "address": "fgdgfdg"
+    }
+  ]
+}

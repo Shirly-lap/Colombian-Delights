@@ -1,0 +1,99 @@
+// Define font for entire application
+$font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+// Define transition for animations
+$transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+// Global styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-mono;
+}
+
+// Styles for sections
+section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 1em;
+        font-size: 2.5em;
+    }
+
+    form {
+        padding: 1.5em;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 500px;
+        border-radius: 20px;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+
+        label {
+            width: 100%;
+            padding: 0.2em;
+            margin-bottom: 0.5em;
+        }
+
+        input {
+            width: 100%;
+            margin-bottom: 1em;
+            padding: 0.8em;
+            border-radius: 9px;
+            border: none;
+            outline-color: #003dff;
+            background-color: #eee;
+
+            [type="submit"] {
+                margin-top: 1.5em;
+                background-color: #003dff;
+                color: #fff;
+                font-family: $font-mono;
+                transition: $transition;
+
+                &:active {
+                    transform: scale(0.97);
+                }
+            }
+        }
+
+        p {
+            margin-top: 1.5em;
+
+            a {
+                text-decoration: none;
+                color: #003dff;
+            }
+        }
+    }
+}
+
+// Styles for Home section button (assuming it's within a section)
+section button {
+    background-color: #003dff;
+    color: #fff;
+    font-family: $font-mono;
+    transition: $transition;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 9px;
+    margin-top: 1.5em;
+    font-size: 1em;
+}
